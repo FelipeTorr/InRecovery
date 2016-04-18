@@ -19,7 +19,9 @@
         <activity android:name=".Diagnostico" />
         <activity android:name=".ResultadoPositivo" />
         <activity android:name=".ResultadoNegativo" />
-        <activity android:name=".MenuHerramientas"></activity>
+        <activity android:name=".MenuHerramientas" />
+        <activity android:name=".Configuracion" />
+        <activity android:name=".Historial"></activity>
     </application>
 
 </manifest>
