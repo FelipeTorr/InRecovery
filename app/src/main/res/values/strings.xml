@@ -1,3 +1,58 @@
 <resources>
+	<!--General-->
     <string name="app_name">InRecovery</string>
+	<!--Activity Bienvenida-->
+	<string name="bienvenido">Bienvenido</string>
+	<string name="necesitorecuperacion">¿Necesito recuperación?</string>
+	<string name="aplicacionpensada">Aplicación pensada en la recupreaciones de adicciones.</string>
+	<string name="nuevo">Soy nuevo.</string>
+	<string name="veterano">Ya tengo una cuenta.</string>
+	<string name="info">Esta es una aplicación de cooperación y no afiliación con herramientas complementarias a los programas. Se ha demostrado que técnicas no farmacológicas que incluyen terapias grupales que utilizan técnicas de 12 pasos, cognitivo-conductuales y motivacionales, ayudan a reforzar comportaminetos sociales que modulan el cerebro adicto y ayudan a su recuperacion y el equilibrio neurobiológico.</string>
+	<!--Activity Seleccion-->
+	<string name="soyadicto">¿Soy Adicto a?</string>
+	<string name="estoylisto">¿Estoy listo para comenzar la recuperación?</string>
+	<string name="autodiagnostico">Autodiagnóstico</string>
+	<string-array name="adicciones">
+    <item>Drogas</item>
+    <item>Trabajo</item>
+    <item>Deudas</item>
+    <item>Neurosis</item>
+	<item>Sexo y Amor</item>
+ </string-array>
+	<!--Activity Diagnostico-->
+	<string name="si">Si</string>
+	<string name="no">No</string>
+	<string name="diagnostico0">¿Soy Adicto a las Drogas?</string>
+	<string name="diagnostico1">¿Soy Adicto al Trabajo?</string>
+	<string name="diagnostico2">¿Soy Adicto a las Deudas?</string>
+	<string name="diagnostico3">¿Soy Adicto a la Neurosis?</string>
+	<string name="diagnostico4">¿Soy Adicto al Sexo y el Amor?</string>
+	<string name="enlace_diagnostico0">Basado en el cuestionario de Narcóticos Anónimos.</string>
+	<string name="enlace_diagnostico1">Basado en el cuestionario de Trabajo-Adictos Anónimos.</string>
+	<string name="enlace_diagnostico2">Basado en el cuestionario de Deudores Anónimos.</string>
+	<string name="enlace_diagnostico3">Basado en el cuestionario de Neuróticos Anónimos.</string>
+	<string name="enlace_diagnostico4">Basado en el cuestionario de Adictos al Sexo y el Amor Anónimos.</string>
+	<string name="resp1">Responder </string>
+	<string name="resp2"> preguntas con respuestas positivas podrían indicar presencia de adicción</string>
+	<string name="admito">Lo admito, soy adicto, continuemos.</string>
+	<string name="admito">No deseo contestar todo, continuemos.</string>
+	<!--Activity Resultado Positivo-->
+	<string name="podria">Podría ser:</string>
+	<string name="adicto0">Adicto a las Drogas.</string>
+	<string name="adicto1">Adicto al Trabajo.</string>
+	<string name="adicto2">Adicto a las Deudas.</string>
+	<string name="adicto3">Adicto a la Neurosis.</string>
+	<string name="adicto4">Adicto al Sexo y Amor:</string>
+	<string name="existen">Podría ser:</string>
+	<string name="teatreves">Podría ser:</string>
+	<string name="quedeseas">Podría ser:</string>
+	<string name="siquiero">Podría ser:</string>
+	<string name="denuevo">Podría ser:</string>
+	<string name="noquiero">Podría ser:</string>
+	<!--Activity Resultado Negativo-->
+	<!--Activity Herramientas-->
+	<!--Activity Resumen Herrmianetas-->
+	<!--Activity IncioSesion-->
+	<!--Activity Registro-->
+	<!--Activity -->
 </resources>

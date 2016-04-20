@@ -21,7 +21,10 @@
         <activity android:name=".ResultadoNegativo" />
         <activity android:name=".MenuHerramientas" />
         <activity android:name=".Configuracion" />
-        <activity android:name=".Historial"></activity>
+        <activity android:name=".Historial" />
+        <activity android:name=".Puntaje" />
+        <activity android:name=".Herramientas" />
+        <activity android:name=".ResumenHerramientas"></activity>
     </application>
 
 </manifest>
