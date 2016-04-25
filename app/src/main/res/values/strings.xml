@@ -1,58 +1,115 @@
-<resources>
+ï»¿<resources>
 	<!--General-->
     <string name="app_name">InRecovery</string>
 	<!--Activity Bienvenida-->
 	<string name="bienvenido">Bienvenido</string>
-	<string name="necesitorecuperacion">¿Necesito recuperación?</string>
-	<string name="aplicacionpensada">Aplicación pensada en la recupreaciones de adicciones.</string>
+	<string name="necesitorecuperacion">Â¿Necesito recuperaciÃ³n?</string>
+	<string name="aplicacionpensada">AplicaciÃ³n pensada en la recupreaciones de adicciones.</string>
 	<string name="nuevo">Soy nuevo.</string>
-	<string name="veterano">Ya tengo una cuenta.</string>
-	<string name="info">Esta es una aplicación de cooperación y no afiliación con herramientas complementarias a los programas. Se ha demostrado que técnicas no farmacológicas que incluyen terapias grupales que utilizan técnicas de 12 pasos, cognitivo-conductuales y motivacionales, ayudan a reforzar comportaminetos sociales que modulan el cerebro adicto y ayudan a su recuperacion y el equilibrio neurobiológico.</string>
+	<string name="veterano">Ya tengo una cuenta</string>
+	<string name="info">Esta es una aplicaciÃ³n de cooperaciÃ³n y no afiliaciÃ³n con herramientas complementarias a los programas de 12 pasos. Se ha demostrado que tÃ©cnicas no farmacolÃ³gicas que incluyen terapias grupales que utilizan tÃ©cnicas de 12 pasos, cognitivo-conductuales y motivacionales, ayudan a reforzar comportaminetos sociales que modulan el cerebro adicto y ayudan a su recuperacion y el equilibrio neurobiolÃ³gico.</string>
 	<!--Activity Seleccion-->
-	<string name="soyadicto">¿Soy Adicto a?</string>
-	<string name="estoylisto">¿Estoy listo para comenzar la recuperación?</string>
-	<string name="autodiagnostico">Autodiagnóstico</string>
+	<string name="soyadicto">Â¿Soy Adicto a?</string>
+	<string name="estoylisto">Â¿Estoy listo para comenzar la recuperaciÃ³n?</string>
+	<string name="autodiagnostico">AutodiagnÃ³stico</string>
 	<string-array name="adicciones">
-    <item>Drogas</item>
-    <item>Trabajo</item>
-    <item>Deudas</item>
-    <item>Neurosis</item>
+	<item>Drogas</item>
+	<item>Trabajo</item>
+	<item>Deudas</item>
+	<item>Neurosis</item>
 	<item>Sexo y Amor</item>
- </string-array>
+	</string-array>
 	<!--Activity Diagnostico-->
 	<string name="si">Si</string>
 	<string name="no">No</string>
-	<string name="diagnostico0">¿Soy Adicto a las Drogas?</string>
-	<string name="diagnostico1">¿Soy Adicto al Trabajo?</string>
-	<string name="diagnostico2">¿Soy Adicto a las Deudas?</string>
-	<string name="diagnostico3">¿Soy Adicto a la Neurosis?</string>
-	<string name="diagnostico4">¿Soy Adicto al Sexo y el Amor?</string>
-	<string name="enlace_diagnostico0">Basado en el cuestionario de Narcóticos Anónimos.</string>
-	<string name="enlace_diagnostico1">Basado en el cuestionario de Trabajo-Adictos Anónimos.</string>
-	<string name="enlace_diagnostico2">Basado en el cuestionario de Deudores Anónimos.</string>
-	<string name="enlace_diagnostico3">Basado en el cuestionario de Neuróticos Anónimos.</string>
-	<string name="enlace_diagnostico4">Basado en el cuestionario de Adictos al Sexo y el Amor Anónimos.</string>
+	<string name="diagnostico0">Soy Adicto a las Drogas?</string>
+	<string name="diagnostico1">Soy Adicto al Trabajo?</string>
+	<string name="diagnostico2">Soy Adicto a las Deudas?</string>
+	<string name="diagnostico3">Soy Adicto a la Neurosis?</string>
+	<string name="diagnostico4">Soy Adicto al Sexo y el Amor?</string>
+	<string name="enlace_diagnostico0">Basado en el cuestionario de NarcÃ³ticos AnÃ³nimos.</string>
+	<string name="enlace_diagnostico1">Basado en el cuestionario de Trabajo-Adictos AnÃ³nimos.</string>
+	<string name="enlace_diagnostico2">Basado en el cuestionario de Deudores AnÃ³nimos.</string>
+	<string name="enlace_diagnostico3">Basado en el cuestionario de NeurÃ³ticos AnÃ³nimos.</string>
+	<string name="enlace_diagnostico4">Basado en el cuestionario de Adictos al Sexo y el Amor AnÃ³nimos.</string>
 	<string name="resp1">Responder </string>
-	<string name="resp2"> preguntas con respuestas positivas podrían indicar presencia de adicción</string>
+	<string name="resp2"> preguntas con respuestas positivas podrÃ­an indicar presencia de adicciÃ³n</string>
 	<string name="admito">Lo admito, soy adicto, continuemos.</string>
-	<string name="admito">No deseo contestar todo, continuemos.</string>
+	<string name="nocontinuemos">No deseo contestar todo, continuemos.</string>
 	<!--Activity Resultado Positivo-->
-	<string name="podria">Podría ser:</string>
+	<string name="podria">PodrÃ­a ser:</string>
 	<string name="adicto0">Adicto a las Drogas.</string>
 	<string name="adicto1">Adicto al Trabajo.</string>
 	<string name="adicto2">Adicto a las Deudas.</string>
 	<string name="adicto3">Adicto a la Neurosis.</string>
 	<string name="adicto4">Adicto al Sexo y Amor:</string>
-	<string name="existen">Podría ser:</string>
-	<string name="teatreves">Podría ser:</string>
-	<string name="quedeseas">Podría ser:</string>
-	<string name="siquiero">Podría ser:</string>
-	<string name="denuevo">Podría ser:</string>
-	<string name="noquiero">Podría ser:</string>
+	<string name="existen">Existen herramientas para el cambio de hÃ¡bitos mentales, conductuales obsesivos y compulsivos autodestructivos.</string>
+	<string name="teatreves">Te atreves al cambio?</string>
+	<string name="quedeseas">Que deseas hacer?</string>
+	<string name="siquiero">Quiero empezar mi recuperaciÃ³n.</string>
+	<string name="denuevo">Realizar el diagnÃ³stico de nuevo.</string>
+	<string name="noquiero">No gracias, por ahora no.</string>
 	<!--Activity Resultado Negativo-->
+	<string name="probablemente">Probablemente no presentas esta adicciÃ³n:</string>
+	<string name="otro">Realizar otro auto-diagnÃ³stico.</string>
 	<!--Activity Herramientas-->
+	<string name="inventariodiario">Inventario Diario:</string>
+	<string name="puntosobtenidos">Puntos Obtendos:</string>
+
+	<!--Activity Menu Herrmianetas-->
 	<!--Activity Resumen Herrmianetas-->
+	<string name="literatura">Literatura Recomendada</string>
 	<!--Activity IncioSesion-->
+	<string name="iniciarsesion">Iniciar SesiÃ³n</string>
+	<string name="iniciar">Iniciar</string>
 	<!--Activity Registro-->
-	<!--Activity -->
+	<string name="registro">Registro</string>
+	<string name="nombre">Nombre:</string>
+	<string name="contrasena">ContraseÃ±a:</string>
+	<string name="edad">Edad:</string>
+	<string name="sexo">Sexo:</string>
+	<string name="registrarme">Registrarme</string>
+	<string name="hombre">Hombre</string>
+	<string name="mujer">Mujer</string>
+	<string name="disclaimer">Los datos aquÃ­ registrados son solo para uso interno de la aplicaciÃ³n. En caso de ser usados en trabajos de investigaciÃ³n serÃ³n tratado anÃ³nimamente. </string>
+	<string-array name="edades">
+	<item>10-15</item>
+	<item>15-20</item>
+	<item>20-25</item>
+	<item>25-30</item>
+	<item>30-35</item>
+	<item>35-40</item>
+	<item>40-45</item>
+	<item>45-50</item>
+	<item>50-55</item>
+	<item>55-60</item>
+	<item>60-65</item>
+	<item>65-70</item>
+	<item>70-75</item>
+	<item>75-80</item>
+    <item>80-85</item>
+	<item>85...</item>
+	</string-array>
+	<!--Activity Glosario-->
+	<string name="glosario">Glosario</string>
+	<string name="ok">Ok</string>
+	<!--Activity Configuracion-->
+	<string name="configurar">Configuraciones</string>
+	<string name="activar">Activar Notificaciones:</string>
+	<string name="sonido">Sonido:</string>
+	<string name="hora">Hora:</string>
+	<string name="cambiarn">Cambiar Nombre</string>
+	<string name="cambiarc">Cambiar Contrasena</string>
+	<!--Activity Historial-->
+	<string name="dias1">DÃ­as sin caer en la adicciÃ³n:</string>
+	<string name="dias2">DÃ­as utilizando InRecovery:</string>
+	<string name="puntajetotal">Puntaje Total</string>
+	<!--Activity Puntaje-->
+	<string name="puntos">Puntos</string>
+	<string name="regresar">Regresar</string>
+	<!--Mensajes aliento-->
+	<string name="mensaje1">Vas muy bien, la recuperaciÃ³n esta presente.</string>
+	<!--Otros-->
+	<string name="nombre_usuario">Nombre Cualquiera</string>
+	<string name="pass_usuario">123456</string>
 </resources>

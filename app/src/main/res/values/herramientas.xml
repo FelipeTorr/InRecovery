@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--Drogas-->
+<string name="hdrogas1">Estuve limpio del consumo de drogas hoy.</string>
+<string name="hdrogas2">Hoy hice algo diferente a lo rutinario.</string>
+<string name="hdrogas3">La enfermedad no me controló hoy.</string>
+<string name="hdrogas4">Me he portado bien conmigo mismo, sin realizarme daños.</string>
+<string name="hdrogas5">Hoy estuve feliz.</string>
+<string name="hdrogas6">Hoy estuve sereno</string>
+<string name="hdrogas7">Hoy hable con mi padrino/madrina del grupo de recuperación.</string>
+<string name="hdrogas8">Hoy asistí a alguna reunión de recuperación de narcóticos anónimos.</string>
+<string name="hdrogas9">Hoy compartí mi experiencia, fortaleza y esperanza con alguien.</string>
+<string name="hdrogas10">Alguien tuvo confianza en mí hoy, compartió tiempo conmigo.</string>
+<string name="hdrogas11">Leí algo de la literatura de narcóticos anónimos.</string>
+<string name="hdrogas12">Trabaje conscientemente los pasos.</string>
+<string name="hdrogas13">Confíe en mi Poder Superior admitiendo mi impotencia por mi solo.</string>
+<string name="hdrogas14">Hoy aprendí algo de mí mismo, algo de lo que no me había dado cuente anteriormente.</string>
+<string name="hdrogas15">Hoy reparé algún daño causado a las personas que me rodean pidiendo disculpas.</string>
+<string name="hdrogas16">Hoy admití mis errores.</string>
+<string name="hdrogas17">No me preocupe por ayer o por el mañana, viví en el presente.</string>
+<string name="hdrogas18">Hoy logré aceptarme tal como soy.</string>
+<string name="hdrogas19">Hoy me sentí parte de la humanidad.</string>
+<string name="hdrogas20">No me obsesione por algo.</string>
+<string name="hdrogas21">No he hecho nada por perjudicar ni dañar a otro.</string>
+<string name="hdrogas22">Hoy estuve dispuesto a cambiar.</string>
+<string name="hdrogas23">Hoy recé, medité o realice alguna práctica de crecimiento espiritual.</string>
+<string name="hdrogas24">Practique principios espirituales.</string>
+<string name="hdrogas25">Fue importante para mí estar limpio de consumo hoy.</string>
+<string name="hdrogas26">He dado algo sin esperar nada a cambio.</string>
+<string name="hdrogas27">No hubo temor en mi vida hoy.</string>
+<string name="hdrogas28">Hoy sentí alegría, pase el día con gozo.</string>
+<string name="hdrogas29">Hoy no sentí dolor, ni físico ni emocional.</string>
+<string name="hdrogas30">Llame o visite a alguien del programa de recuperación de narcóticos anónimos.</string>
+<string name="hdrogas31">Me he sentido tranquilo por hoy.</string>
+<string name="hdrogas32">Hoy recé por el bienestar de otro.</string>
+<string name="hdrogas33">Hoy recordé conscientemente que tuve la oportunidad de escoger.</string>
+<string name="hdrogas34">Hice una lista de agradecimiento por las cosas que tengo en mi vida hoy. </string>
+<string name="hdrogas35">Revise al principio del día mis conductas para no caer en ellas.</string>
+
+       
+
+
+<!--Trabajo-->
+<string name="htrabajo1">No me obsesione con el trabajo hoy.</string>
+<string name="htrabajo2">Hoy no estuve ansioso o preocupado por terminar una tarea.</string>
+<string name="htrabajo3">Hoy realice y cumplí un plan de acción para ocupar mi tiempo.</string>
+<string name="htrabajo4">Hoy no he tenido miedo a no tener suficiente trabajo, dinero o amor.</string>
+<string name="htrabajo5">Hoy tuve tiempo para divertirme y jugar.</string>
+<string name="htrabajo6">Hoy reparé relaciones rotas y he pedido disculpas.</string>
+<string name="htrabajo7">Hoy medité o realice alguna práctica de crecimiento interior.</string>
+<string name="htrabajo8">Hoy pedí guía y escuche a alguien del grupo.</string>
+<string name="htrabajo9">Hoy priorice algunas actividades, creando una lista de lo urgente, lo importante y lo necesario.</string>
+<string name="htrabajo10">Hoy logre sustituir una actividad por otra equivalente en tiempo y esfuerzo.</string>
+<string name="htrabajo11">Hoy agendé previniendo situaciones inesperadas, para no llegar a tener una agenda apretada imposible de cumplir.</string>
+<string name="htrabajo12">Hoy reservé un tiempo para jugar sin hacer de este juego un proyecto de trabajo.</string>
+<string name="htrabajo13">Hoy intenté hacer una cosa a la vez, enfocando el esfuerzo en una tarea específica.</string>
+<string name="htrabajo14">Hoy trabaje a un ritmo confortable sin tensarme ni presionarme.</string>
+<string name="htrabajo15">Hoy no acepté la presión de otros, cumpliendo mi agenda y priorizando.</string>
+<string name="htrabajo16">Hoy no presione a otros, reconozco que si cumplen su trabajo no necesito apresurar o recargar de mayores actividades.</string>
+<string name="htrabajo17">Hoy acepté los resultados sin ser perfeccionista.</string>
+<string name="htrabajo18">Hoy pedí ayuda reconociendo que no puedo hacerlo todo sólo.</string>
+<string name="htrabajo19">Hoy asistí a una reunión de confraternidad de trabajo adictos anónimos.</string>
+<string name="htrabajo20">Me comuniqué con mis amigos de la confraternidad de trabajo adictos anónimos antes o después de una tarea difícil.</string>
+<string name="htrabajo21">Hoy equilibré mi implicación en el trabajo.</string>
+<string name="htrabajo22">Hoy ayudé a otro adicto al trabajo.</string>
+<string name="htrabajo23">Viví el ahora con serenidad, gozo y agradecimiento.</string>
+<string name="htrabajo24">Hoy me abstuve de trabajar compulsivamente. </string>
+<string name="htrabajo25">Hoy no pensé o me preocupe compulsivamente por el trabajo.</string>
+
+
+<!--Deudas-->
+<string name="hdeudas1">Hoy no adquiri nuevas deudas.</string>
+<string name="hdeudas2">Asistí a una reunión de deudores anónimos.</string>
+<string name="hdeudas3">Registré mis gastos e ingresos diarios.</string>
+<string name="hdeudas4">Registré las deudas pagadas hoy.</string>
+<string name="hdeudas5">Llamé o envié un mensaje de texto a mi padrino/madrina.</string>
+<string name="hdeudas6">Asistí a una reunión de grupo de alivio (personas en recuperación avanzada).</string>
+<string name="hdeudas7">Hoy seguí mi plan de gasto diario.</string>
+<string name="hdeudas8">Hoy cumplí mi plan de acción para el pago de mis deudas.</string>
+<string name="hdeudas9">Contacté con el teléfono o redes sociales con otros miembros del grupo de recuperación.</string>
+<string name="hdeudas10">Realicé la lectura del material de la asociación de deudores anónimos.</string>
+<string name="hdeudas11">Hoy he tomado consciencia del peligro de las deudas.</string>
+<string name="hdeudas12">Hoy pude asistir a reuniones trabajo de la asociación de deudores anónimos.</string>
+<string name="hdeudas13">Hoy fui servicial con alguien, he ayudado con comedimiento.</string>
+<string name="hdeudas14">He practicado el anonimato, comparto libremente conociendo que no saldrá del grupo.</string>
+<string name="hdeudas15">Tengo clara mi situación financiera.</string>
+<string name="hdeudas16">Hoy no olvidé devolver cosas prestadas.</string>
+<string name="hdeudas17">Hoy he mantenido un buen hábito de ahorros.</string>
+<string name="hdeudas18">Hoy no realicé compras compulsivas.</string>
+<string name="hdeudas19">Hoy no he tenido dificultades en cumplir obligaciones financieras como pagos o cobros de dinero.</string>
+<string name="hdeudas20">Tuve un sentimiento diferente al comprar con crédito que con efectivo, me he sentido una persona adulta.</string>
+<string name="hdeudas21">Hoy no viví un drama en alrededor del dinero.</string>
+<string name="hdeudas22">Hoy no tuve tendencia a vivir en el abismo, evité llegar a situaciones extremas.</string>
+<string name="hdeudas23">Hoy no me sentí avergonzado al hablar de dinero.</string>
+<string name="hdeudas24">Hoy no realice sobre-trabajo solo por pagar deudas.</string>
+<string name="hdeudas25">Hoy me cuide a mí mismo, no permití que la adicción me gobierne.</string>
+<string name="hdeudas26">Hoy sentí esperanza en estar respaldado por familiares y amigos.</string>
+<string name="hdeudas27"></string>
+<string name="hdeudas28"></string>
+<string name="hdeudas29"></string>
+<string name="hdeudas30"></string>
+
+<!--Neurosis-->
+<string name="hneurosis1">Hoy no me sentí diferente al resto de gente.</string>
+<string name="hneurosis2">Hoy no fui compulsivamente autosuficiente, logré pedir ayuda.</string>
+<string name="hneurosis3">Admito diariamente que existe un poder más grande que el individuo.</string>
+<string name="hneurosis4">Hoy no me resultó una tragedia que las cosas no salieran a mi manera.</string>
+<string name="hneurosis5">Hoy confié en alguien para contarle mi situación.</string>
+<string name="hneurosis6">Hoy no me deje llevar por mis emociones de manera destructiva, haciéndome daño o perjudicando a otras personas.</string>
+<string name="hneurosis7">Hoy no desafié mi instinto de conservación.</string>
+<string name="hneurosis8">Hoy no me he sentido superior a los demás.</string>
+<string name="hneurosis9">Hoy mantuve una actitud abierta para enfrentar mis problemas.</string>
+<string name="hneurosis10">Hoy traté de ser humilde.</string>
+<string name="hneurosis11">Hoy estuve dispuesto a reparar a las personas que cause daño pidiendo disculpas.</string>
+<string name="hneurosis12">Hoy intenté lograr mejores relaciones personales con amigos y familiares.</string>
+<string name="hneurosis13">Hoy medité o realice alguna práctica de crecimiento interior.</string>
+<string name="hneurosis14">Hoy hice un autoexamen de mis errores. (Detectar, admitir y corregir)</string>
+<string name="hneurosis15">Hoy fomenté la moderación de mi carácter.</string>
+<string name="hneurosis16">Hoy fomenté la tolerancia con las personas y las situaciones presentadas.</string>
+<string name="hneurosis17">Hoy fui cortés con la gente con la que interactué.</string>
+<string name="hneurosis18">Hoy asistí a  una reunión de neuróticos anónimos.</string>
+<string name="hneurosis19"></string>
+<string name="hneurosis20"></string>
+<string name="hneurosis21"></string>
+<string name="hneurosis22"></string>
+<string name="hneurosis23"></string>
+<string name="hneurosis24"></string>
+<string name="hneurosis25"></string>
+<string name="hneurosis26"></string>
+<string name="hneurosis27"></string>
+<string name="hneurosis28"></string>
+<string name="hneurosis29"></string>
+<string name="hneurosis30"></string>
+
+<!--Sexo y Amor-->
+<string name="hsexoyamor1">Hoy reconocí mis conductas adictivas.</string>
+<string name="hsexoyamor2">Hoy sustituí mis conductas adictivas por comportamientos sanos.</string>
+<string name="hsexoyamor3">Hoy pedí ayuda a alguien de la asociación S.L.A.A (Adictos al Sexo y al Amor Anónimos).</string>
+<string name="hsexoyamor4">Telefonee o envié un mensaje de texto a mi padrino o a otro miembro de S.L.A.A. </string>
+<string name="hsexoyamor5">Hoy leí alguna publicación literaria de S.L.A.A.</string>
+<string name="hsexoyamor6">Hoy escribí mis pensamientos en un diario. </string>
+<string name="hsexoyamor7">Hoy escribí mis sentimientos en un diario.</string>
+<string name="hsexoyamor8">Hoy asistí a alguna reunión de S.L.A.A.</string>
+<string name="hsexoyamor9">Hoy pedí ayuda a alguien.</string>
+<string name="hsexoyamor10">Hoy participe activamente en mi grupo de S.L.A.A.</string>
+<string name="hsexoyamor11">Hoy he dejado de vivir en el pasado, vivo enfocado en el presente.</string>
+<string name="hsexoyamor12">Hoy converse por teléfono o envié un mensaje de texto a algún miembro de S.L.A.A.</string>
+<string name="hsexoyamor13">Hoy confíe en mi esposa(o) o compañera(o).</string>
+<string name="hsexoyamor14">Hoy evite los viejos caminos, formando nuevos hábitos. </string>
+<string name="hsexoyamor15">Hoy evite los patrones de conductas adictivas.</string>
+<string name="hsexoyamor16">Hoy compartí con mi esposa(o) respecto al grupo de S.L.A.A.</string>
+<string name="hsexoyamor17">Hoy llené el vacío de no caer en la adicción con conductas sanas.</string>
+<string name="hsexoyamor18">Hoy he hecho amigos dentro del grupo.</string>
+<string name="hsexoyamor19">Hoy he disfrutado del proceso de recuperación.</string>
+<string name="hsexoyamor20"></string>
+<string name="hsexoyamor21"></string>
+<string name="hsexoyamor22"></string>
+<string name="hsexoyamor23"></string>
+<string name="hsexoyamor24"></string>
+<string name="hsexoyamor25"></string>
+<string name="hsexoyamor26"></string>
+<string name="hsexoyamor27"></string>
+<string name="hsexoyamor28"></string>
+<string name="hsexoyamor29"></string>
+<string name="hsexoyamor30"></string>
+</resources>

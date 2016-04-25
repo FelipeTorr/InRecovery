@@ -1,16 +1,106 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.sinapsis.inrecovery.Bienvenida">
+    tools:context="com.sinapsis.inrecovery.Bienvenida"
+    android:background="@color/background1">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
-</RelativeLayout>
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/bienvenido"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="@dimen/titulo_grande"
+        android:textColor="@color/colorPrimaryDark"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/espacio_grande"
+        android:layout_marginRight="@dimen/espacio_grande">
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textSize="@dimen/titulo_grande"
+            android:textColor="@color/colorPrimary"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:text="@string/aplicacionpensada"
+        android:textSize="@dimen/texto_grande"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorGris1"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:text="@string/necesitorecuperacion"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textSize="@dimen/texto_grande"
+        android:textColor="@color/colorGris1"
+        />
+    <Button
+        android:id="@+id/nuevo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="@string/nuevo"
+        android:textSize="@dimen/boton_mediano"
+        android:background="@color/colorBotones1"
+        android:textColorHighlight="@color/colorGris2"
+        android:layout_marginBottom="@dimen/espacio_mediano"
+        />
+    <Button
+        android:id="@+id/veterano"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/veterano"
+        android:textSize="@dimen/boton_mediano"
+        android:background="@color/colorBotones2"
+        android:textColorHighlight="@color/colorGris2"
+        android:layout_marginBottom="@dimen/espacio_mediano"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/info"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/texto_normal"
+            android:textColor="@color/colorGris1"/>
+    </ScrollView>
+</LinearLayout>

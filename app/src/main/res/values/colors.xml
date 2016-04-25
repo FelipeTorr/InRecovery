@@ -1,6 +1,117 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <!--Principales-->
+	<color name="colorPrimary">#4F78FF</color>
+    <color name="colorPrimaryDark">#4060CB</color>
+	<color name="colorNegro">#020202</color>
+	<color name="colorGris1">#4F4F4F</color>
+	<color name="colorGris2">#888888</color>
+	<color name="colorGris3">#C2C2C2</color>
+	<color name="colorAccent">#FF4081</color>
+	<color name="background1">#FFF5D6</color>
+	<color name="background2">#DECDFE</color>
+	<color name="background3">#D7ECFF</color>
+	<!--Botones-->
+	<color name="colorBotones1">#7D75F9</color>
+	<color name="colorBotones2">#7D62F9</color>
+	<color name="colorBotones3">#7059F0</color>
+	<!--Narcóticos-->
+	<color name="colornarc_anon">#317AD8</color>
+	<color name="colornarc_anon1">#377FDD</color>
+	<color name="colornarc_anon2">#3D84E1</color>
+	<color name="colornarc_anon3">#4289E6</color>
+	<color name="colornarc_anon4">#478EEA</color>
+	<color name="colornarc_anon5">#4C92EE</color>
+	<color name="colornarc_anon6">#5398F2</color>
+	<color name="colornarc_anon7">#589DF7</color>
+	<color name="colornarc_anon8">#5FA3FC</color>
+	<color name="colornarc_anon9">#65A8FF</color>
+	<color name="colornarc_anon10">#73B0FF</color>
+	<!--Trabajo-->
+	<color name="colortrab_anon">#261900</color>
+	<color name="colortrab_anon1">#2C1E01</color>
+	<color name="colortrab_anon2">#332303</color>
+	<color name="colortrab_anon3">#372604</color>
+	<color name="colortrab_anon4">#3D2B05</color>
+	<color name="colortrab_anon5">#432F07</color>
+	<color name="colortrab_anon6">#483309</color>
+	<color name="colortrab_anon7">#4D370B</color>
+	<color name="colortrab_anon8">#523B0D</color>
+	<color name="colortrab_anon9">#573F10</color>
+	<color name="colortrab_anon10">#5D4413</color>
+	<!--Deudas-->
+	<color name="colordeud_anon">#6B965A</color>
+	<color name="colordeud_anon1">#709A60</color>
+	<color name="colordeud_anon2">#769F66</color>
+	<color name="colordeud_anon3">#7CA46D</color>
+	<color name="colordeud_anon4">#82A873</color>
+	<color name="colordeud_anon5">#88AD79</color>
+	<color name="colordeud_anon6">#8EB180</color>
+	<color name="colordeud_anon7">#94B687</color>
+	<color name="colordeud_anon8">#9ABA8E</color>
+	<color name="colordeud_anon9">#A0BF94</color>
+	<color name="colordeud_anon10">#A6C29B</color>
+	<!--Neurosis-->
+	<color name="colorneur_anon">#1DA448</color>
+	<color name="colorneur_anon1">#20A94C</color>
+	<color name="colorneur_anon2">#25AF51</color>
+	<color name="colorneur_anon3">#29B355</color>
+	<color name="colorneur_anon4">#2EB859</color>
+	<color name="colorneur_anon5">#32BC5E</color>
+	<color name="colorneur_anon6">#37C162</color>
+	<color name="colorneur_anon7">#3CC668</color>
+	<color name="colorneur_anon8">#41C96C</color>
+	<color name="colorneur_anon9">#47CD71</color>
+	<color name="colorneur_anon10">#4DD177</color>
+	<!--Sexo y Amor-->
+	<color name="colorsex_anon">#2BA2D9</color>
+	<color name="colorsex_anon1">#31A7DE</color>
+	<color name="colorsex_anon2">#37ACE2</color>
+	<color name="colorsex_anon3">#3CB0E6</color>
+	<color name="colorsex_anon4">#42B6EB</color>
+	<color name="colorsex_anon5">#47BBF0</color>
+	<color name="colorsex_anon6">#4DC0F5</color>
+	<color name="colorsex_anon7">#55C4F8</color>
+	<color name="colorsex_anon8">#5CC9FC</color>
+	<color name="colorsex_anon9">#63CEFF</color>
+	<color name="colorsex_anon10">#69D0FF</color>
+	<!--Glosario-->
+	<color name="color_palabra1">#9ADFAB</color>
+	<color name="color_definicion1">#A9F5BC</color>
+	<color name="color_palabra2">#DBDCDB</color>
+	<color name="color_definicion2">#F2F2F2</color>
+	<color name="color_palabra3">#BDBDE2</color>
+	<color name="color_definicion3">#CECEF6</color>
+	<color name="color_palabra4">#DFCDBA</color>
+	<color name="color_definicion4">#F6E3CE</color>
+	<color name="color_palabra5">#9BE1DF</color>
+	<color name="color_definicion5">#A9F5F2</color>
+	<color name="color_palabra6">#E1E1BC</color>
+	<color name="color_definicion6">#F5F6CE</color>
+	<color name="color_palabra7">#E5C0C9</color>
+	<color name="color_definicion7">#F6CED8</color>
+	<color name="color_palabra8">#D2D2D2</color>
+	<color name="color_definicion8">#E6E6E6</color>
+	<color name="color_palabra9">#BDE1D0</color>
+	<color name="color_definicion9">#CEF6E3</color>
+	<color name="color_palabra10">#D0E39C</color>
+	<color name="color_definicion10">#E1F5A9</color>
+	<color name="color_palabra11">#E1BDD8</color>
+	<color name="color_definicion11">#F6CEEC</color>
+	<color name="color_palabra12">#C4C4C4</color>
+	<color name="color_definicion12">#D8D8D8</color>
+	<color name="color_palabra13">#9BC0E2</color>
+	<color name="color_definicion13">#A9D0F5</color>
+	<color name="color_palabra14">#E0D8BC</color>
+	<color name="color_definicion14">#F5ECCE</color>
+	<color name="color_palabra15">#C19CE3</color>
+	<color name="color_definicion15">#D0A9F5</color>
+	<color name="color_palabra16">#E1BCC5</color>
+	<color name="color_definicion16">#F6CED8</color>
+	<!--Registro-->
+	<color name="color_registro1">#4C5BD0</color>
+	<color name="color_registro2">#5060D8</color>
+	<color name="color_registro3">#5565E2</color>
+	<color name="color_registro4">#5A6BEB</color>
+	<color name="color_registro5">#5F71F6</color>
 </resources>

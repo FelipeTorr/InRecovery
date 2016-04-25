@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--Drogas-->
+
+<string name="ddrogas1">¿Consumes alguna vez a solas?</string>
+<string name="ddrogas2">¿Has sustituido una droga por otra, creyendo que ésta en particular era tu problema? </string>
+<string name="ddrogas3">¿Has manipulado o mentido a algún médico para conseguir una receta?</string>
+<string name="ddrogas4">¿Alguna vez has robado drogas, o has robado algo para conseguirlas?</string>
+<string name="ddrogas5">¿Consumes habitualmente alguna droga al levantarte o al acostarte?</string>
+<string name="ddrogas6">¿Has consumido alguna droga para contrarrestar los efectos de otra?</string>
+<string name="ddrogas7">¿Evitas a la gente que no aprueba tu consumo de drogas? </string>
+<string name="ddrogas8">¿Has consumido alguna vez una sustancia sin saber qué era o qué efectos tenía? </string>
+<string name="ddrogas9">¿Tu consumo de drogas, ha afectado negativamente tu rendimiento en el trabajo o en los estudios? </string>
+<string name="ddrogas10">¿Te han detenido alguna vez por consumir drogas? </string>
+<string name="ddrogas11">¿Has mentido alguna vez sobre el tipo de drogas o la cantidad que consumías?</string>
+<string name="ddrogas12">¿Pones la compra de drogas por encima de tus responsabilidades económicas?</string>
+<string name="ddrogas13">¿Has intentado alguna vez parar o controlar tu consumo? </string>
+<string name="ddrogas14">¿Has estado en la cárcel, en el hospital o en algún centro de rehabilitación por culpa de las drogas? </string>
+<string name="ddrogas15">¿Tu consumo de drogas altera tus hábitos de comer o dormir?</string>
+<string name="ddrogas16">¿Te aterroriza la idea de estar sin drogas?</string>
+<string name="ddrogas17">¿Crees que es imposible para ti vivir sin drogas?</string>
+<string name="ddrogas18">¿Dudas alguna vez de tu sano juicio?</string>
+<string name="ddrogas19">¿Crea conflictos en tu casa tu consumo de drogas?</string>
+<string name="ddrogas20">¿Alguna vez has pensado que sin drogas no encajas, o no podrías divertirte?</string>
+<string name="ddrogas21">¿Alguna vez te has puesto a la defensiva o te has sentido culpable o avergonzado por tu consumo? </string>
+<string name="ddrogas22">¿Piensas mucho en las drogas?</string>
+<string name="ddrogas23">¿Tienes miedos irracionales o indefinidos?</string>
+<string name="ddrogas24">¿Tu consumo de drogas ha afectado tus relaciones sexuales?</string>
+<string name="ddrogas25">¿Has consumido otras drogas además de tus favoritas?</string>
+<string name="ddrogas26">¿Alguna vez has consumido drogas por culpa de problemas emocionales o por tensiones?</string>
+<string name="ddrogas27">¿Has sufrido alguna vez una sobredosis?</string>
+<string name="ddrogas28">¿Continúas consumiendo a pesar de las consecuencias negativas?</string>
+<string name="ddrogas29">¿Piensas que tal vez tengas problemas de drogas?</string>
+
+<!--Trabajo-->
+<string name="dtrabajo1">¿Te emociona el trabajo más que la familia o cualquier otra cosa?</string>
+<string name="dtrabajo2">¿Hay momentos en los que te puedes sentir recargado a través del trabajo y otros momentos en lo que no puedes conseguir hacer nada?</string>
+<string name="dtrabajo3">¿Usted se lleva el trabajo a la cama los fines de semana o en vacaciones?</string>
+<string name="dtrabajo4">¿Es el trabajo la actividad que más le gusta y de la que más habla?</string>
+<string name="dtrabajo5">¿Trabaja más de 40 horas a la semana?</string>
+<string name="dtrabajo6">¿Usted convierte sus hobbies en formas de obtener dinero o negocios?</string>
+<string name="dtrabajo7">¿Usted toma completa responsabilidad por el resultado de sus esfuerzos en el trabajo?</string>
+<string name="dtrabajo8">¿Su familia o amigos han dejado de esperar que llegue a tiempo?</string>
+<string name="dtrabajo9">¿Usted toma trabajo extra porque está preocupado de que otra manera no será realizado?</string>
+<string name="dtrabajo10">¿Usted desestima cuánto tiempo va a llevar un proyecto y entonces se apresura para completarlo?</string>
+<string name="dtrabajo11">¿Usted cree que está bien trabajar largas horas si ama lo que está haciendo?</string>
+<string name="dtrabajo12">¿Usted se pone impaciente cuando las personas tienen otras prioridades distintas al trabajo?</string>
+<string name="dtrabajo13">¿Usted tiene miedo de que si no trabaja duro perderá su trabajo o será un fracasado?</string>
+<string name="dtrabajo14">¿Es para usted el futuro una preocupación constante incluso cuando las cosas van muy bien?</string>
+<string name="dtrabajo15">¿Usted hace las cosas energética y competitivamente incluso cuando juega?</string>
+<string name="dtrabajo16">¿Usted se enfada cuando las personas le piden que pare de hacer su trabajo para que haga otra cosa?</string>
+<string name="dtrabajo17">¿Ha dañado a su familia u otras relaciones las largas horas que dedica al trabajo?</string>
+<string name="dtrabajo18">¿Usted piensa en su trabajo cuando está conduciendo, yéndose a dormir o cuando otros están hablando?</string>
+<string name="dtrabajo19">¿Usted trabaja o lee durante las comidas?</string>
+<string name="dtrabajo20">¿Usted cree que más dinero resolverá el resto de problemas de su vida?</string>
+
+
+
+<!--Deudas-->
+<string name="ddeudas1">¿Están sus deudas haciendo de su vida de hogar una vida infeliz?</string>
+<string name="ddeudas2">¿Le distrae la presión de sus deudas de su trabajo diario?</string>
+<string name="ddeudas3">¿Están sus deudas afectando su reputación?</string>
+<string name="ddeudas4">¿Le hacen sus deudas pensar menos en usted mismo?</string>
+<string name="ddeudas5">¿Ha dado información falsa alguna vez con tal de conseguir algún crédito o financiación?</string>
+<string name="ddeudas6">¿Ha hecho alguna vez promesas irreales a sus acreedores?</string>
+<string name="ddeudas7">¿La presión de sus deudas le ha hecho ser negligente en el bienestar de su familia?</string>
+<string name="ddeudas8">¿Le ha dado miedo de que su empleador, familia o amigos sepan la magnitud de su deuda total?</string>
+<string name="ddeudas9">¿Cuando ha enfrentado una difícil situación financiera, la expectativa de pedir prestado le da un desmesurado sentimiento de alivio?</string>
+<string name="ddeudas10">¿Le causa dificultad en el dormir la presión de sus deudas?</string>
+<string name="ddeudas11">¿Alguna vez la presión de sus deudas le ha provocado el deseo de usar un escape? (alcohol, drogas, comida, sexo, etc.)</string>
+<string name="ddeudas12">¿Ha pedido alguna vez prestado dinero sin siquiera prestar la debida atención a la tasa de interés que debe pagar?</string>
+<string name="ddeudas13">¿Generalmente espera una respuesta negativa cuando está usted sujeto a una investigación de crédito?</string>
+<string name="ddeudas14">¿Ha desarrollado alguna vez un plan estricto de cancelación de sus deudas, solo para romperlo en una situación de presión?</string>
+<string name="ddeudas15">¿Justifica sus deudas diciéndose a sí mismo que usted es superior a los demás, y que en cuanto usted tenga un “descanso”, habrá salido de sus deudas de la noche a la mañana?</string>
+
+
+<!--Neurosis-->
+<string name="dneurosis1">¿Es usted demasiado sensible?</string>
+<string name="dneurosis2">¿Le gusta conmiserarse (sentir lástima por sí mismo)?</string>
+<string name="dneurosis3">¿Trata siempre de justificarse o defenderse?</string>
+<string name="dneurosis4">¿Padece de ansiedad en ciertos momentos?</string>
+<string name="dneurosis5">¿Cree que todo el mundo lo observa?</string>
+<string name="dneurosis6">¿Es celoso y desconfiado?</string>
+<string name="dneurosis7">¿Le gusta criticar?</string>
+<string name="dneurosis8">¿Exagera pequeños problemas?</string>
+<string name="dneurosis9">¿Tiende a exagerar sus estados de optimismo y depresión?</string>
+<string name="dneurosis10">¿Le aparecen disturbios sexuales frecuentemente?</string>
+<string name="dneurosis11">¿Vive disgustado con todo el mundo?</string>
+<string name="dneurosis12">¿Ha perdido sus ambiciones de superación?</string>
+<string name="dneurosis13">¿Pierde oportunidades?</string>
+<string name="dneurosis14">¿Tiende a ser ordenado en exceso?</string>
+<string name="dneurosis15">¿Es usted desordenado?</string>
+<string name="dneurosis16">¿Miente sin necesidad?</string>
+<string name="dneurosis17">¿Es usted supersticioso?</string>
+<string name="dneurosis18">¿Hace cosas que considera tontas?</string>
+<string name="dneurosis19">¿Padece alguna compulsión como ver debajo de la cama, temiendo que haya algo, lavarse las manos exageradamente, ver si el carro u otra puerta está bien cerrada?</string>
+<string name="dneurosis20">¿Padece de miedo a alguna cosa (oscuridad, altura, enfermedades, cuartos encerrados, etc.)?</string>
+<string name="dneurosis21">¿Se enoja con facilidad?</string>
+<string name="dneurosis22">¿Padece dolores de cabeza con frecuencia?</string>
+<string name="dneurosis23">¿Se queda dormido cuando no debe?</string>
+<string name="dneurosis24">¿Padece enfermedades que el médico no logra descubrir?</string>
+
+<!--Sexo y Amor-->
+<string name="dsexoyamor1">¿Ha tratado alguna vez de poner un límite a sus actividades sexuales o a la frecuencia con la que ve a alguien?</string>
+<string name="dsexoyamor2">¿Le resulta imposible dejar de ver a una persona concreta aunque sepa que esto sólo le perjudica?</string>
+<string name="dsexoyamor3">¿Le da miedo que alguien descubra sus actividades sexuales o románticas? ¿Necesita ocultárselas a los demás; amigos, familiares, compañeros de trabajo, psicólogos, etc.?</string>
+<string name="dsexoyamor4">¿Llega lo sexual y romántico a producir en usted un estado de trance? ¿Llega lo sexual y romántico al extremo de hundirlo? </string>
+<string name="dsexoyamor5">¿Ha tenido relaciones sexuales en momentos, lugares o con personas poco adecuadas?</string>
+<string name="dsexoyamor6">¿Hace promesas o se impone normas de conducta que luego ve que no puede cumplir?</string>
+<string name="dsexoyamor7">¿Ha mantenido o mantiene relaciones sexuales con alguien con quien no le apetece?</string>
+<string name="dsexoyamor8">¿Cree que el sexo o una relación amorosa puede hacer su vida más placentera?</string>
+<string name="dsexoyamor9">¿Se ha sentido alguna vez “obligado” a mantener relaciones sexuales?</string>
+<string name="dsexoyamor10">¿Cree que alguien puede transformar su vida y/o solucionarle sus problemas personales?</string>
+<string name="dsexoyamor11">¿Tiene una lista, escrita o de cualquier otra forma, con el número de parejas que ha tenido?</string>
+<string name="dsexoyamor12">¿Cuando está separado de su pareja sexual, le invaden sentimientos de inquietud o desesperación?</string>
+<string name="dsexoyamor13">¿Ha perdido cuenta del número de personas con el que ha mantenido relaciones sexuales?</string>
+<string name="dsexoyamor14">¿Siente una necesidad desesperada de amante, “dosis” de sexo o futura pareja?</string>
+<string name="dsexoyamor15">¿Ha tenido o tiene relaciones sexuales sin pararse a pensar en las consecuencias. (p.ej.. el peligro de que le descubran, el riesgo de contraer herpes, gonorrea, SIDA, etc.?). </string>
+<string name="dsexoyamor16">¿Reincide una y otra vez en relaciones sexuales que no le convienen?</string>
+<string name="dsexoyamor17">¿Cree que su valía dentro de una relación radica en su aportación sexual o en el soporte emocional que usted proporciona?</string>
+<string name="dsexoyamor18">¿No se siente vivo “de verdad” a menos que se encuentre en compañía de su pareja sexual o amor romantico?</string>
+<string name="dsexoyamor19">¿Cree que tiene un derecho especial a disfrutar del sexo?</string>
+<string name="dsexoyamor20">¿Se encuentra en una relación de la que no puede salir? </string>
+<string name="dsexoyamor21">¿Ha puesto alguna vez en peligro su estabilidad financiera o su posición social por perseguir a alguien?</string>
+<string name="dsexoyamor22">¿Cree que los problemas que experimenta en su vida amorosa se deben a que no disfruta del tipo de relación sexual “adecuada”, o que carece de ella o a que continúa estancada con la misma persona?</string>
+<string name="dsexoyamor23">¿Ha destruido o puesto en peligro por sus aventuras alguna relación seria en alguna ocasión?</string>
+<string name="dsexoyamor24">¿Cree que su vida carecería de sentido sin enredos amorosos o aventuras sexuales?</string>
+<string name="dsexoyamor25">¿Se ha sorprendido alguna vez coqueteando o convirtiendo a alguien en un mero objeto sexual, incluso sin que esta fuera su intención?</string>
+<string name="dsexoyamor26">¿Afecta su conducta sexual o romántica a su reputación?</string>
+<string name="dsexoyamor27">¿Trata de solucionar o de huir de los problemas de la vida a través del sexo o de las relaciones amorosas?</string>
+<string name="dsexoyamor28">¿Le preocupa la masturbación por su frecuencia; las fantasías de que la acompaña, los objetos que usa o los lugares en que la practica?</string>
+<string name="dsexoyamor29">¿Practica el exhibicionismo o el “fisgoneo” (atisbo) en formas que le producen ansiedad o dolor?</string>
+<string name="dsexoyamor30">¿Para alcanzar un nivel aceptable de alivio físico y emocional, ¿necesita cada vez más una mayor variación en sus actividades sexuales y románticas e invertir una dosis cada vez mayor de energía y esfuerzo?</string>
+</resources>
