@@ -22,11 +22,11 @@
 	<!--Activity Diagnostico-->
 	<string name="si">Si</string>
 	<string name="no">No</string>
-	<string name="diagnostico0">Soy Adicto a las Drogas?</string>
-	<string name="diagnostico1">Soy Adicto al Trabajo?</string>
-	<string name="diagnostico2">Soy Adicto a las Deudas?</string>
-	<string name="diagnostico3">Soy Adicto a la Neurosis?</string>
-	<string name="diagnostico4">Soy Adicto al Sexo y el Amor?</string>
+	<string name="diagnostico0">¿Soy Adicto a las Drogas?</string>
+	<string name="diagnostico1">¿Soy Adicto al Trabajo?</string>
+	<string name="diagnostico2">¿Soy Adicto a las Deudas?</string>
+	<string name="diagnostico3">¿Soy Adicto a la Neurosis?</string>
+	<string name="diagnostico4">¿Soy Adicto al Sexo y el Amor?</string>
 	<string name="enlace_diagnostico0">Basado en el cuestionario de Narcóticos Anónimos.</string>
 	<string name="enlace_diagnostico1">Basado en el cuestionario de Trabajo-Adictos Anónimos.</string>
 	<string name="enlace_diagnostico2">Basado en el cuestionario de Deudores Anónimos.</string>
@@ -42,7 +42,7 @@
 	<string name="adicto1">Adicto al Trabajo.</string>
 	<string name="adicto2">Adicto a las Deudas.</string>
 	<string name="adicto3">Adicto a la Neurosis.</string>
-	<string name="adicto4">Adicto al Sexo y Amor:</string>
+	<string name="adicto4">Adicto al Sexo y Amor.</string>
 	<string name="existen">Existen herramientas para el cambio de hábitos mentales, conductuales obsesivos y compulsivos autodestructivos.</string>
 	<string name="teatreves">Te atreves al cambio?</string>
 	<string name="quedeseas">Que deseas hacer?</string>
@@ -50,13 +50,18 @@
 	<string name="denuevo">Realizar el diagnóstico de nuevo.</string>
 	<string name="noquiero">No gracias, por ahora no.</string>
 	<!--Activity Resultado Negativo-->
-	<string name="probablemente">Probablemente no presentas esta adicción:</string>
+	<string name="probablemente">Probablemente no eres:</string>
 	<string name="otro">Realizar otro auto-diagnóstico.</string>
 	<!--Activity Herramientas-->
 	<string name="inventariodiario">Inventario Diario:</string>
 	<string name="puntosobtenidos">Puntos Obtendos:</string>
 
 	<!--Activity Menu Herrmianetas-->
+	<string name="adiccion0">Drogas</string>
+	<string name="adiccion1">Trabajo</string>
+	<string name="adiccion2">Deudas</string>
+	<string name="adiccion3">Neurosis</string>
+	<string name="adiccion4">Sexo y Amor</string>
 	<!--Activity Resumen Herrmianetas-->
 	<string name="literatura">Literatura Recomendada</string>
 	<!--Activity IncioSesion-->
@@ -101,6 +106,7 @@
 	<string name="cambiarn">Cambiar Nombre</string>
 	<string name="cambiarc">Cambiar Contrasena</string>
 	<!--Activity Historial-->
+	<string name="estadisticas">Estadísticas</string>
 	<string name="dias1">Días sin caer en la adicción:</string>
 	<string name="dias2">Días utilizando InRecovery:</string>
 	<string name="puntajetotal">Puntaje Total</string>

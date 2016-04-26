@@ -3,18 +3,26 @@
     <!--Principales-->
 	<color name="colorPrimary">#4F78FF</color>
     <color name="colorPrimaryDark">#4060CB</color>
-	<color name="colorNegro">#020202</color>
+	<color name="colorAccent">#F9F9B9</color>
+    <color name="colorRojo">#DD5242</color>
+    <color name="colorNegro">#020202</color>
 	<color name="colorGris1">#4F4F4F</color>
 	<color name="colorGris2">#888888</color>
 	<color name="colorGris3">#C2C2C2</color>
-	<color name="colorAccent">#FF4081</color>
 	<color name="background1">#FFF5D6</color>
 	<color name="background2">#DECDFE</color>
 	<color name="background3">#D7ECFF</color>
+    <color name="background4">#FCDADA</color>
 	<!--Botones-->
 	<color name="colorBotones1">#7D75F9</color>
 	<color name="colorBotones2">#7D62F9</color>
 	<color name="colorBotones3">#7059F0</color>
+    <color name="colorBotones4">#DD9569</color>
+    <color name="colorBotones5">#D09985</color>
+    <color name="colorBotones6">#FD9F75</color>
+    <color name="colorBotones7">#FD75F9</color>
+    <color name="colorBotones8">#FD82F9</color>
+    <color name="colorBotones9">#F099F0</color>
 	<!--Narcóticos-->
 	<color name="colornarc_anon">#317AD8</color>
 	<color name="colornarc_anon1">#377FDD</color>

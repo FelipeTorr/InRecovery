@@ -25,6 +25,7 @@
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
+        android:onClick="Spinner_Click"
         />
     <ImageView
         android:layout_width="match_parent"
