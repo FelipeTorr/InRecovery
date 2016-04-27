@@ -29,6 +29,16 @@
         android:layout_marginBottom="@dimen/espacio_pequnio"
         android:layout_marginTop="@dimen/espacio_pequnio"/>
     <Button
+        android:id="@+id/adiccion4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/adiccion4"
+        android:textSize="@dimen/boton_mediano"
+        android:background="@color/colorsex_anon"
+        android:layout_marginBottom="@dimen/espacio_pequnio"
+        android:layout_marginTop="@dimen/espacio_pequnio"/>
+    <Button
         android:id="@+id/adiccion1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -36,6 +46,7 @@
         android:text="@string/adiccion1"
         android:textSize="@dimen/boton_mediano"
         android:background="@color/colortrab_anon"
+        android:textColor="@color/colorGris3"
         android:layout_marginBottom="@dimen/espacio_pequnio"
         android:layout_marginTop="@dimen/espacio_pequnio"
         />
@@ -59,15 +70,6 @@
         android:background="@color/colorneur_anon"
         android:layout_marginBottom="@dimen/espacio_pequnio"
         android:layout_marginTop="@dimen/espacio_pequnio"/>
-    <Button
-        android:id="@+id/adiccion4"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:text="@string/adiccion4"
-        android:textSize="@dimen/boton_mediano"
-        android:background="@color/colorsex_anon"
-        android:layout_marginBottom="@dimen/espacio_pequnio"
-        android:layout_marginTop="@dimen/espacio_pequnio"/>
+
 
 </LinearLayout>
