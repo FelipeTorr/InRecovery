@@ -15,16 +15,15 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.6"
         android:text="@string/bienvenido"
-        android:layout_gravity="center"
-        android:textAlignment="center"
+        android:gravity="center"
         android:textSize="@dimen/titulo_grande"
         android:textColor="@color/colorPrimaryDark"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1.5"
         android:orientation="horizontal"
         android:gravity="center"
         android:layout_marginLeft="@dimen/espacio_grande"
