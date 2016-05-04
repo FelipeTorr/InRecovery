@@ -36,17 +36,17 @@
 	<color name="colornarc_anon9">#65A8FF</color>
 	<color name="colornarc_anon10">#73B0FF</color>
 	<!--Trabajo-->
-	<color name="colortrab_anon">#261900</color>
-	<color name="colortrab_anon1">#2C1E01</color>
-	<color name="colortrab_anon2">#332303</color>
-	<color name="colortrab_anon3">#372604</color>
-	<color name="colortrab_anon4">#3D2B05</color>
-	<color name="colortrab_anon5">#432F07</color>
-	<color name="colortrab_anon6">#483309</color>
-	<color name="colortrab_anon7">#4D370B</color>
-	<color name="colortrab_anon8">#523B0D</color>
-	<color name="colortrab_anon9">#573F10</color>
-	<color name="colortrab_anon10">#5D4413</color>
+	<color name="colortrab_anon">#262920</color>
+	<color name="colortrab_anon1">#2C2E21</color>
+	<color name="colortrab_anon2">#333323</color>
+	<color name="colortrab_anon3">#373624</color>
+	<color name="colortrab_anon4">#3D3B25</color>
+	<color name="colortrab_anon5">#433F27</color>
+	<color name="colortrab_anon6">#484329</color>
+	<color name="colortrab_anon7">#4D472B</color>
+	<color name="colortrab_anon8">#524B2D</color>
+	<color name="colortrab_anon9">#574F30</color>
+	<color name="colortrab_anon10">#5D5433</color>
 	<!--Deudas-->
 	<color name="colordeud_anon">#6B965A</color>
 	<color name="colordeud_anon1">#709A60</color>

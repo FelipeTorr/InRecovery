@@ -17,6 +17,7 @@
         android:text="@string/existen"
         android:gravity="center"
         android:textSize="@dimen/texto_grande"
+        android:textColor="@color/colorGris1"
         />
     <Button
         android:id="@+id/adiccion0"

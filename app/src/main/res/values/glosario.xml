@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="frase1">A pesar de nuestras diferencias, la adicción hace que todos naveguemos en el mismo barco.</string>
+    <string name="frase2">Es posible que nuestras experiencias personales varíen en cuanto a su esquema individual, pero al final, todas tenemos lo mismo en común </string>
+    <string name="frase3">una enfermedad o trastorno llamado adicción.</string>
+    <string name="frase4">Conocemos muy bien las dos cosas que componen la verdadera adicción: obsesión y  compulsión.</string>
+    <string name="frase5">Obsesión, esa idea fija que nos hace regresar una y otra vez a nuestra sustancia o actividad en particular para volver a experimentar el alivio y bienestar que una vez conocimos.</string>
+    <string name="frase6">La compulsión consiste en que una vez empezado el proceso con la primera droga, cualquiera sea ésta, no podemos parar por nuestra propia fuerza de voluntad,</string>
+    <string name="frase7">debido a que por nuestra sensibilidad física estamos en las garras de un poder destructivo superior a nosotros. </string>
+    <string name="frase8">Cuando al final del camino nos damos cuenta de que no podemos seguir funcionando como seres humanos, ni con drogas ni sin ellas, todos nos enfrentamos al mismo dilema:</string>
+    <string name="frase9">¿Qué queda por hacer? </string>
+    <string name="frase10">Parece que hay dos alternativas: o continuamos lo mejor que podamos hasta el amargo  final (cárceles, hospitales o la muerte) o encontramos una nueva manera de vivir.</string>
+
+    <string name="adiccion">Adicción:</string>
+    <string name="def_adiccion">Adicción:</string>
+    <string name="anonimato">Anonimato:</string>
+    <string name="def_anonimato">Adicción:</string>
+    <string name="ansiedad">Ansiedad:</string>
+    <string name="def_ansiedad">Adicción:</string>
+    <string name="docepasos">Adicción:</string>
+    <string name="def_docepasos">Adicción:</string>
+    <string name="g_inventariodiario">Inventario Diario:</string>
+    <string name="def_inventariodiario">Adicción:</string>
+    <string name="meditacion">Adicción:</string>
+    <string name="def_meditacion">Adicción:</string>
+    <string name="madrinapadrino">Adicción:</string>
+    <string name="def_madrinapadrino">Adicción:</string>
+    <string name="madrinazgopadrinazgo">Adicción:</string>
+    <string name="def_madrinazgopadrinazgo">Adicción:</string>
+    <string name="compulsion">Adicción:</string>
+    <string name="def_compulsion">Adicción:</string>
+    <string name="obsesion">Adicción:</string>
+    <string name="def_obsesion">Adicción:</string>
+
+</resources>

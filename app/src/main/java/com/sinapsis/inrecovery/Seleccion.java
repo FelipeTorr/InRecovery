@@ -20,8 +20,11 @@ public class Seleccion extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seleccion);
+        //Elementos de la pantalla
         Spinner adicciones=(Spinner) findViewById(R.id.adicciones);
+        Button autodiagnostico=(Button)findViewById(R.id.autodiagnostico);
         final ImageView imagen=(ImageView)findViewById(R.id.imagenseleccion);
+
         // Crear adaptador para spinner
         ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,android.R.layout.simple_spinner_dropdown_item,getResources().getStringArray(R.array.adicciones));
         adicciones.setAdapter(dataAdapter);
@@ -59,6 +62,16 @@ public class Seleccion extends AppCompatActivity {
                 return;
             }
         });
+        autodiagnostico.setOnClickListener(
+                new Button.OnClickListener() {
+                    public void onClick(View v) {
+                        Intent i=new Intent(Seleccion.this,Diagnostico.class);
+                        i.putExtra("Adiccion",adiccion);
+                        startActivity(i);
+                    }
+                }
+        );
+
     }
 
 
