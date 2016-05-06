@@ -13,7 +13,7 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".Bienvenida"
-            android:theme="@style/NoTitle">
+            >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

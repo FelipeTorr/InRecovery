@@ -13,19 +13,81 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0.8"
         android:text="@string/soyadicto"
         android:gravity="center"
         android:textSize="@dimen/titulo_grande"
         android:textColor="@color/colorPrimaryDark"
         />
+<ViewFlipper
+android:layout_width="match_parent"
+android:layout_height="0dp"
+android:layout_weight="2"
+android:id="@+id/contenidoflipper"
+android:layout_gravity="center_horizontal">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frase1"
+    android:text="@string/frase1"
+    android:textSize="@dimen/texto_grande"
+    android:gravity="center"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frase2"
+    android:text="@string/frase2"
+    android:textSize="@dimen/texto_grande"
+    android:gravity="center"/>
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frase3"
+    android:text="@string/frase3"
+    android:textSize="@dimen/texto_grande"
+    android:gravity="center"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frase4"
+    android:text="@string/frase4"
+    android:textSize="@dimen/texto_grande"
+    android:gravity="center"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frase5"
+    android:text="@string/frase5"
+    android:textSize="@dimen/texto_grande"
+    android:gravity="center"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frase6"
+    android:text="@string/frase6"
+    android:textSize="@dimen/texto_grande"
+    android:gravity="center"
+    />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/frase7"
+    android:text="@string/frase7"
+    android:textSize="@dimen/texto_grande"
+    android:gravity="center"
+    />
+
+</ViewFlipper>
     <Spinner
         android:id="@+id/adicciones"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-
         />
     <ImageView
         android:id="@+id/imagenseleccion"
@@ -41,7 +103,7 @@
         android:layout_weight="1"
         android:text="@string/estoylisto"
         android:gravity="center"
-        android:textSize="@dimen/titulo_normal"
+        android:textSize="@dimen/texto_grande"
         android:textColor="@color/colorPrimaryDark"
         />
     <LinearLayout

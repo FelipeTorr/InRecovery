@@ -1,6 +1,7 @@
 package com.sinapsis.inrecovery;
 
 import android.content.Intent;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,9 @@ public class Glosario extends AppCompatActivity {
     boolean isglosario;
     int contador=0;
     int k;
+    //Swipe
+    ViewPager mViewPager;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,12 +24,12 @@ public class Glosario extends AppCompatActivity {
         adiccion=getIntent().getIntExtra("Adiccion",0);
         isglosario=getIntent().getBooleanExtra("IsGlosario",false);
         //elementos pantalla
-        TextView titulo=(TextView)findViewById(R.id.tituloactividad);
-        final ViewFlipper flipper1=(ViewFlipper)findViewById(R.id.tituloflipper);
+        //TextView titulo=(TextView)findViewById(R.id.tituloactividad);
+        //final ViewFlipper flipper1=(ViewFlipper)findViewById(R.id.tituloflipper);
         final ViewFlipper flipper2=(ViewFlipper)findViewById(R.id.contenidoflipper);
-        Button saltar=(Button) findViewById(R.id.saltar);
-        Button siguiente=(Button) findViewById(R.id.siguiente);
-
+        //Button saltar=(Button) findViewById(R.id.saltar);
+        //Button siguiente=(Button) findViewById(R.id.siguiente);
+/*
         if (isglosario){
             titulo.setText(getResources().getText(R.string.glosario));
             flipper1.showNext();
@@ -81,15 +85,13 @@ public class Glosario extends AppCompatActivity {
                                 startActivity(i);
                             }
                             flipper2.showNext();
-
-
                         }
                     }
             );
         }
 
 
-
+*/
 
     }
 }
