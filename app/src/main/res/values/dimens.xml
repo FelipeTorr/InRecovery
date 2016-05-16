@@ -10,7 +10,7 @@
     <dimen name="boton_grande">22sp</dimen>
     <dimen name="boton_mediano">18sp</dimen>
     <dimen name="boton_pequenio">16sp</dimen>
-    <dimen name="espacio_pequnio">4dp</dimen>
+    <dimen name="espacio_pequenio">4dp</dimen>
     <dimen name="espacio_mediano">16dp</dimen>
     <dimen name="espacio_grande">30dp</dimen>
     <dimen name="espacio_enorme">70dp</dimen>

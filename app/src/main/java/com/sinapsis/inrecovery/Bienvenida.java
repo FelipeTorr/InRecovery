@@ -37,5 +37,10 @@ public class Bienvenida extends AppCompatActivity {
                 }
         );
     }
+    public void Mas_click(View v){
+        Intent i=new Intent(Bienvenida.this,Herramientas.class);
+        i.putExtra("Adiccion",1);
+        startActivity(i);
+    }
 
 }

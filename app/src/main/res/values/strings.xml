@@ -2,12 +2,16 @@
     <!--General-->
     <string name="app_name">InRecovery</string>
     <!--Activity Bienvenida-->
-    <string name="bienvenido">Bienvenido</string>
+    <string name="bienvenido">-Bienvenido-</string>
     <string name="necesitorecuperacion">¿Necesito recuperación?</string>
-    <string name="aplicacionpensada">Aplicación pensada en la recupreaciones de adicciones.</string>
-    <string name="nuevo">Soy nuevo.</string>
-    <string name="veterano">Ya tengo una cuenta</string>
+    <string name="aplicacionpensada1">Aplicación pensada en la</string>
+    <string name="aplicacionpensada2">RECUPERACIÓN</string>
+    <string name="aplicacionpensada3">DE ADICCIONES.</string>
+    <string name="nuevo">Soy nuevo</string>
+    <string name="veterano">Ingresar</string>
     <string name="info">Esta es una aplicación de cooperación y no afiliación con herramientas complementarias a los programas de 12 pasos. Se ha demostrado que técnicas no farmacológicas que incluyen terapias grupales que utilizan técnicas de 12 pasos, cognitivo-conductuales y motivacionales, ayudan a reforzar comportaminetos sociales que modulan el cerebro adicto y ayudan a su recuperacion y el equilibrio neurobiológico.</string>
+    <string name="basado1">Basado en el programa</string>
+    <string name="basado2">12 pasos</string>
     <!--Activity Seleccion-->
     <string name="soyadicto">¿Soy Adicto a?</string>
     <string name="estoylisto">¿Estoy listo para comenzar la recuperación?</string>
@@ -19,6 +23,11 @@
         <item>Neurosis</item>
         <item>Sexo y Amor</item>
     </string-array>
+    <string name="drogas">Drogas</string>
+    <string name="trabajo">Trabajo</string>
+    <string name="deudas">Deudas</string>
+    <string name="neurosis">Neurosis</string>
+    <string name="sexoyamor">Sexo y amor</string>
     <!--Activity Diagnostico-->
     <string name="si">Si</string>
     <string name="no">No</string>
@@ -67,6 +76,7 @@
     <string name="adiccion2">Deudas</string>
     <string name="adiccion3">Neurosis</string>
     <string name="adiccion4">Sexo y Amor</string>
+    <string name="herramientasrecuperacion">Herramientas de Recuperación:</string>
     <!--Activity Resumen Herrmianetas-->
     <string name="literatura">Literatura Recomendada</string>
     <!--Activity IncioSesion-->

@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--Categorias-->
+    <string name="herramientas1">Reuniones y comunicación</string>
+    <string name="herramientas2">Pasos y Padrinazgo</string>
+    <string name="herramientas3">Literatura</string>
+    <string name="herramientas4">Servicio</string>
+    <string name="vacio"></string>
 <!--Drogas-->
 <string name="hdrogas1">Estuve limpio del consumo de drogas hoy.</string>
 <string name="hdrogas2">Hoy hice algo diferente a lo rutinario.</string>

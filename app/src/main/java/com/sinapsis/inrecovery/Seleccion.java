@@ -35,23 +35,23 @@ public class Seleccion extends AppCompatActivity {
                 switch(pos){
                     case 0:
                     adiccion=0;
-                        imagen.setImageResource(R.drawable.cara1);
+                        imagen.setImageResource(R.drawable.icono_drogas);
                         break;
                     case 1:
                         adiccion=1;
-                        imagen.setImageResource(R.drawable.cara2);
+                        imagen.setImageResource(R.drawable.icono_trabajo);
                         break;
                     case 2:
                         adiccion=2;
-                        imagen.setImageResource(R.drawable.cara3);
+                        imagen.setImageResource(R.drawable.icono_deudas);
                         break;
                     case 3:
                         adiccion=3;
-                        imagen.setImageResource(R.drawable.cara4);
+                        imagen.setImageResource(R.drawable.icono_neurosis);
                         break;
                     case 4:
                         adiccion=4;
-                        imagen.setImageResource(R.drawable.cara5);
+                        imagen.setImageResource(R.drawable.icono_sexoyamor);
                         break;
 
                 }

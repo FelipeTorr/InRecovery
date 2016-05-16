@@ -11,9 +11,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".Bienvenida"
-            >
+        <activity android:name=".Bienvenida">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,7 +28,8 @@
         <activity android:name=".Puntaje" />
         <activity android:name=".Herramientas" />
         <activity android:name=".ResumenHerramientas" />
-        <activity android:name=".Glosario"></activity>
+        <activity android:name=".Glosario" />
+        <activity android:name=".DescripcionHerramienta"></activity>
     </application>
 
 </manifest>

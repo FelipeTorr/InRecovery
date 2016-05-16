@@ -38,12 +38,58 @@
         android:onClick="EnlaceWeb"
         />
     <LinearLayout
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text="@string/resp1"
+            android:textColor="@color/colorGris1"
+            android:textSize="@dimen/texto_normal"
+            />
+        <TextView
+            android:id="@+id/n_preguntas"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/colorGris1"
+            android:textSize="@dimen/texto_normal"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/resp2"
+            android:textColor="@color/colorGris1"
+            android:textSize="@dimen/texto_normal"
+            />
+    </LinearLayout>
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:id="@+id/scrolldiagnostico">
+        <LinearLayout
+            android:id="@+id/contenedor_diagnostico"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            />
+    </ScrollView>
+    <LinearLayout
         android:id="@+id/conteo"
         android:layout_weight="1"
         android:layout_height="0dp"
         android:layout_width="match_parent"
-        android:layout_marginLeft="@dimen/espacio_grande"
-        android:layout_marginRight="@dimen/espacio_grande"
         android:orientation="horizontal"
         android:background="@color/colornarc_anon2"
         >
@@ -62,11 +108,11 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_gravity="start"
+            android:gravity="center_vertical"
             android:text="0"
             android:textColor="@color/colorGris2"
             android:textSize="@dimen/titulo_normal"
-            android:textAlignment="textStart"
+
             />
         <TextView
             android:id="@+id/No"
@@ -83,60 +129,16 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:layout_gravity="start"
+            android:gravity="center_vertical"
             android:text="0"
             android:textColor="@color/colorGris2"
             android:textSize="@dimen/titulo_normal"
-
             />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_weight="1"
-        android:layout_height="0dp"
-        android:layout_width="match_parent"
-        android:orientation="horizontal"
-        >
-        <TextView
+        <ImageView
             android:layout_width="0dp"
-            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/resp1"
-            android:textColor="@color/colorGris2"
-            android:textSize="@dimen/texto_normal"
-            />
-        <TextView
-            android:id="@+id/n_preguntas"
-            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="0.2"
-            android:gravity="center"
-            android:text="0"
-            android:textColor="@color/colorGris2"
-            android:textSize="@dimen/texto_normal"
-
-            />
-        <TextView
-
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="4"
-            android:gravity="center"
-            android:text="@string/resp2"
-            android:textColor="@color/colorGris2"
-            android:textSize="@dimen/texto_normal"
-            />
+            android:src="@android:drawable/arrow_down_float"
+            android:onClick="ImageClick"/>
     </LinearLayout>
-    </LinearLayout>
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="7">
-        <LinearLayout
-            android:id="@+id/contenedor_diagnostico"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            ></LinearLayout>
-    </ScrollView>
 </LinearLayout>

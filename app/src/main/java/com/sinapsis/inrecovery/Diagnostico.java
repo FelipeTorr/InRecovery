@@ -10,6 +10,7 @@ import android.view.ViewDebug;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RadioButton;
+import android.widget.ScrollView;
 import android.widget.TextView;
 
 public class Diagnostico extends AppCompatActivity {
@@ -20,7 +21,7 @@ public class Diagnostico extends AppCompatActivity {
     int no=0;
     int total;
     int j;
-
+    ScrollView scroll;
     boolean bandera=false; //bandera para que no se repita la pantalla de admisión rápida.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,7 @@ public class Diagnostico extends AppCompatActivity {
         TextView numero=(TextView)findViewById(R.id.n_preguntas);
         LinearLayout cabecera=(LinearLayout)findViewById(R.id.cabecera_diagnostico);
         LinearLayout conteo=(LinearLayout)findViewById(R.id.conteo);
-
+        scroll=(ScrollView) findViewById(R.id.scrolldiagnostico);
         //Layout dinámico según la adicción
         ViewGroup layout = (ViewGroup) findViewById(R.id.contenedor_diagnostico);
         LayoutInflater inflater = LayoutInflater.from(Diagnostico.this);
@@ -90,6 +91,16 @@ public class Diagnostico extends AppCompatActivity {
                 break;
 
         }
+    }
+    public void ImageClick(View view) {
+    int y;
+    int maxY;
+        maxY=scroll.getBottom()*3;
+        y=scroll.getScrollY();
+        if ((y+100)<maxY) {
+            scroll.setScrollY(y + 100);
+        }
+
     }
     public void RadioButtonClick(View view) {
         //Elementos a cambiar en pantalla
@@ -407,10 +418,14 @@ public class Diagnostico extends AppCompatActivity {
             no=no+noes[j];
         }
         total=si+no;
-        n_no.setText(Integer.toString(no));
-        n_si.setText(Integer.toString(si));
+        try{
+            n_no.setText(Integer.toString(no));
+            n_si.setText(Integer.toString(si));}
+        catch (NullPointerException ignored){
+
+        }
         //Pantalla de admitir la adicción
-            if (si==2 && bandera==false){
+            if (si==2 && !bandera){
                 //codigo aqui//
                 bandera=true;
             }

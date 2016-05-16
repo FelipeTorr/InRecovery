@@ -38,7 +38,7 @@ public class ResultadoPositivo extends AppCompatActivity {
         Intent i;
         switch(v.getId()){
             case R.id.siquiero:
-                i=new Intent(ResultadoPositivo.this,Glosario.class);
+                i=new Intent(ResultadoPositivo.this,Herramientas.class);
                 i.putExtra("Adiccion",adiccion);
                 startActivity(i);
                 break;

@@ -26,7 +26,7 @@ public class Glosario extends AppCompatActivity {
         //elementos pantalla
         //TextView titulo=(TextView)findViewById(R.id.tituloactividad);
         //final ViewFlipper flipper1=(ViewFlipper)findViewById(R.id.tituloflipper);
-        final ViewFlipper flipper2=(ViewFlipper)findViewById(R.id.contenidoflipper);
+        //final ViewFlipper flipper2=(ViewFlipper)findViewById(R.id.contenidoflipper);
         //Button saltar=(Button) findViewById(R.id.saltar);
         //Button siguiente=(Button) findViewById(R.id.siguiente);
 /*

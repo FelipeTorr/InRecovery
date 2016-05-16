@@ -15,6 +15,7 @@
         android:layout_weight="1"
         android:text="@string/probablemente"
         android:textSize="@dimen/titulo_normal"
+        android:gravity="center_vertical"
         android:textColor="@color/colorGris1"
         />
     <TextView
@@ -45,8 +46,8 @@
         android:text="@string/denuevo"
         android:background="@color/colorBotones8"
         android:textSize="@dimen/boton_mediano"
-        android:layout_marginTop="@dimen/espacio_pequnio"
-        android:layout_marginBottom="@dimen/espacio_pequnio"
+        android:layout_marginTop="@dimen/espacio_pequenio"
+        android:layout_marginBottom="@dimen/espacio_pequenio"
         android:onClick="Button_Click"/>
     <Button
         android:id="@+id/noquiero"
@@ -56,7 +57,9 @@
         android:text="@string/noquiero"
         android:background="@color/colorBotones9"
         android:textSize="@dimen/boton_mediano"
-        android:layout_marginTop="@dimen/espacio_pequnio"
-        android:layout_marginBottom="@dimen/espacio_pequnio"
+        android:layout_marginTop="@dimen/espacio_pequenio"
+        android:layout_marginBottom="@dimen/espacio_pequenio"
+        android:layout_marginLeft="@dimen/espacio_mediano"
+        android:layout_marginRight="@dimen/espacio_mediano"
         android:onClick="Button_Click"/>
 </LinearLayout>
