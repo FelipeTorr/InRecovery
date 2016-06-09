@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/categoria1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/menusuperior1"
+        android:onClick="Categoria_click"
+        >
+        <ImageView
+            android:id="@+id/imagen_herramienta1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:contentDescription="Descripción del contenido de la imagen"
+            android:src="@drawable/icono_reunion" />
+        <TextView
+            android:id="@+id/titulo_herramienta1"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/herramientas1"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/categoria2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:onClick="Categoria_click"
+        android:background="@color/background2"
+        >
+        <ImageView
+            android:id="@+id/imagen_herramienta2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:contentDescription="Descripción del contenido de la imagen"
+            android:src="@drawable/icono_padrinazgo" />
+        <TextView
+            android:id="@+id/titulo_herramienta2"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/herramientas2"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/categoria3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:onClick="Categoria_click"
+        android:background="@color/background4"
+        >
+        <ImageView
+            android:id="@+id/imagen_herramienta3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:contentDescription="Descripción del contenido de la imagen"
+            android:src="@drawable/icono_lectura" />
+        <TextView
+            android:id="@+id/titulo_herramienta3"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/herramientas3"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/categoria4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:onClick="Categoria_click"
+        android:background="@drawable/menuinferior1"
+        >
+        <ImageView
+            android:id="@+id/imagen_herramienta4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:contentDescription="Descripción del contenido de la imagen"
+            android:src="@drawable/icono_servicio" />
+        <TextView
+            android:id="@+id/titulo_herramienta4"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/herramientas4"
+            android:gravity="center_vertical"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+    </LinearLayout>
+</LinearLayout>

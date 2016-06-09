@@ -130,6 +130,7 @@
     <!--Activity Puntaje-->
     <string name="puntos">Puntos</string>
     <string name="regresar">Regresar</string>
+    <string name="lohice">Lo Hice</string>
     <!--Mensajes aliento-->
     <string name="mensaje1">Vas muy bien, la recuperación esta presente.</string>
     <!--Otros-->

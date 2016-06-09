@@ -1,49 +1,200 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--Categorias-->
-    <string name="herramientas1">Reuniones y comunicación</string>
+    <string name="herramientas1">Reuniones y Abstención</string>
     <string name="herramientas2">Pasos y Padrinazgo</string>
-    <string name="herramientas3">Literatura</string>
+    <string name="herramientas3">Literatura y Espiritualidad</string>
     <string name="herramientas4">Servicio</string>
     <string name="vacio"></string>
 <!--Drogas-->
-<string name="hdrogas1">Estuve limpio del consumo de drogas hoy.</string>
-<string name="hdrogas2">Hoy hice algo diferente a lo rutinario.</string>
-<string name="hdrogas3">La enfermedad no me controló hoy.</string>
-<string name="hdrogas4">Me he portado bien conmigo mismo, sin realizarme daños.</string>
-<string name="hdrogas5">Hoy estuve feliz.</string>
-<string name="hdrogas6">Hoy estuve sereno</string>
-<string name="hdrogas7">Hoy hable con mi padrino/madrina del grupo de recuperación.</string>
-<string name="hdrogas8">Hoy asistí a alguna reunión de recuperación de narcóticos anónimos.</string>
-<string name="hdrogas9">Hoy compartí mi experiencia, fortaleza y esperanza con alguien.</string>
-<string name="hdrogas10">Alguien tuvo confianza en mí hoy, compartió tiempo conmigo.</string>
-<string name="hdrogas11">Leí algo de la literatura de narcóticos anónimos.</string>
-<string name="hdrogas12">Trabaje conscientemente los pasos.</string>
-<string name="hdrogas13">Confíe en mi Poder Superior admitiendo mi impotencia por mi solo.</string>
-<string name="hdrogas14">Hoy aprendí algo de mí mismo, algo de lo que no me había dado cuente anteriormente.</string>
-<string name="hdrogas15">Hoy reparé algún daño causado a las personas que me rodean pidiendo disculpas.</string>
-<string name="hdrogas16">Hoy admití mis errores.</string>
-<string name="hdrogas17">No me preocupe por ayer o por el mañana, viví en el presente.</string>
-<string name="hdrogas18">Hoy logré aceptarme tal como soy.</string>
-<string name="hdrogas19">Hoy me sentí parte de la humanidad.</string>
-<string name="hdrogas20">No me obsesione por algo.</string>
-<string name="hdrogas21">No he hecho nada por perjudicar ni dañar a otro.</string>
-<string name="hdrogas22">Hoy estuve dispuesto a cambiar.</string>
-<string name="hdrogas23">Hoy recé, medité o realice alguna práctica de crecimiento espiritual.</string>
-<string name="hdrogas24">Practique principios espirituales.</string>
-<string name="hdrogas25">Fue importante para mí estar limpio de consumo hoy.</string>
-<string name="hdrogas26">He dado algo sin esperar nada a cambio.</string>
-<string name="hdrogas27">No hubo temor en mi vida hoy.</string>
-<string name="hdrogas28">Hoy sentí alegría, pase el día con gozo.</string>
-<string name="hdrogas29">Hoy no sentí dolor, ni físico ni emocional.</string>
-<string name="hdrogas30">Llame o visite a alguien del programa de recuperación de narcóticos anónimos.</string>
-<string name="hdrogas31">Me he sentido tranquilo por hoy.</string>
-<string name="hdrogas32">Hoy recé por el bienestar de otro.</string>
-<string name="hdrogas33">Hoy recordé conscientemente que tuve la oportunidad de escoger.</string>
-<string name="hdrogas34">Hice una lista de agradecimiento por las cosas que tengo en mi vida hoy. </string>
-<string name="hdrogas35">Revise al principio del día mis conductas para no caer en ellas.</string>
+<!--Reuniones-->
+<string name="hdrogas0t">Abstinencia</string>
+<string name="hdrogas0d">La enfermedad no me controló hoy. Hoy no consumí ninguna sustancia nociva para mi cuerpo.</string>
+<string name="hdrogas0e">Hoy puedo celebrarlo con una de mis canciones favoritas</string>
 
-       
+    <string name="hdrogas1t">Reuniones</string>
+    <string name="hdrogas1d">Hoy asistí a una reunión de narcóticos anónimos.</string>
+    <string name="hdrogas1e">¿Dónde puedo asistir ahora a una reunión?</string>
+
+<string name="hdrogas2t">Llamar</string>
+<string name="hdrogas2d">Llamé a alguien que apoya mi recuperación.</string>
+<string name="hdrogas2e">Conseguir números e información de grupos cercanos</string>
+
+
+<string name="hdrogas3t">Pedir un número</string>
+<string name="hdrogas3d">Pedí un teléfono a alguien nuevo en mi grup</string>
+<string name="hdrogas3e">Recordarme a pedir hoy un número a alguien nuevo.</string>
+
+    <!--Pasos-->
+<string name="hdrogas4t">Conseguí un padrino o madrina.</string>
+<string name="hdrogas4d">Hoy encontré un padrino o madrina dentro del grupo. Si ya lo tengo agradezo por él o ella.</string>
+<string name="hdrogas4e"></string>
+
+    <string name="hdrogas6t">Escribí pasos hoy.</string>
+    <string name="hdrogas6d">Hoy escribí pasos, o puedo hacerlo ahora.</string>
+    <string name="hdrogas6e"></string>
+
+    <string name="hdrogas7t">Llamé a mi padrino hoy..</string>
+    <string name="hdrogas7d">Hoy llamé un padrino o madrina dentro del grupo. Si aún no lo llamaba voy a hacerlo ahora.</string>
+    <string name="hdrogas7e">Buscar el número de mi padrino/madrina</string>
+
+    <string name="hdrogas8t">Llamé a alguien nuevo.</string>
+    <string name="hdrogas8d">Hoy llamé a alguien nuevo dentro del grupo. Si aún no lo he llamado puedo hacerlo ahora.</string>
+    <string name="hdrogas8e">Buscar el número de alguien nuevo.</string>
+
+<string name="hdrogas5t">Admisión</string>
+<string name="hdrogas5d">Llamo o personalmente admito mis errores ante alguien.
+Si ya los había admitido por hoy, agradezco por estar en paz con el resto de personas y conmigo mismo.</string>
+<string name="hdrogas5e">¿A quién llamar?</string>
+
+<string name="hdrogas61t">Confianza</string>
+<string name="hdrogas61d">Confíe en mi Poder Superior, poniendo mi vida y voluntad a su cuidado.
+En un sitio seguro cierro los ojos y doy un paso. Puede ser en tu habitación, la sala de reuniones de tu trabajo, el salón de clases, etc.
+</string>
+<string name="hdrogas61e"></string>
+
+<string name="hdrogas71t">Inventario</string>
+<string name="hdrogas71d">Escribo mi inventario personal de todas aquellas personas que he hecho daño y estoy dispuesto a enmendarlo.</string>
+<string name="hdrogas71e">¿Alguien de mis contactos?</string>
+
+<string name="hdrogas81t">Disculpas</string>
+<string name="hdrogas81d">Llame o personalmente pedí disculpas a una persona.
+Si no debo disculpas a nadie por hoy, agradezco por estar en paz con el resto de personas y conmigo mismo.
+</string>
+<string name="hdrogas81e">¿Debo a alguien una disculpa?</string>
+
+<string name="hdrogas9t">Rezar o Meditar</string>
+<string name="hdrogas9d">Hoy dedique un tiempo para rezar o meditar para lo cual encontré un sitio tranquilo.
+Rece durante un minuto o medité durante 15 minutos.
+</string>
+<string name="hdrogas9e"></string>
+
+<string name="hdrogas10t">Principios Espirituales</string>
+<string name="hdrogas10d">Practico principios espirituales para mantenerme limpio.
+Leí al menos un párrafo de algún libro de crecimiento espiritual.
+</string>
+<string name="hdrogas10e"></string>
+
+<string name="hdrogas11t">Bienestar de Otro</string>
+<string name="hdrogas11d">En mis reflexiones y pensamientos tuve presente a alguien a quien desee bienestar.</string>
+<string name="hdrogas11e">¿Por quién pedir?</string>
+
+<string name="hdrogas12t">Sin Dañarme</string>
+<string name="hdrogas12d">Me he portado bien conmigo mismo, sin realizarme daños.</string>
+<string name="hdrogas12e">Realizo ejercicio por 2 minutos.</string>
+
+<string name="hdrogas13t">Felicidad</string>
+<string name="hdrogas13d">Hoy estuve feliz. Sonrio a alguien o devuelvo una sonrisa.</string>
+<string name="hdrogas13e"></string>
+
+<string name="hdrogas14t">Serenidad</string>
+<string name="hdrogas14d">Hoy estuve sereno. Respiro profundamente tres veces.</string>
+<string name="hdrogas14e"></string>
+
+<string name="hdrogas15t">Padrino/Madrina</string>
+<string name="hdrogas15d">Hoy hable con mi padrino/madrina del grupo de recuperación o planee una cita.</string>
+<string name="hdrogas15e">Llamar al número de teléfono.</string>
+
+<string name="hdrogas16t">Cambio</string>
+<string name="hdrogas16d">Hoy estuve dispuesto a cambiar.
+Si estoy con una prenda de varios bolsillos cambio de posición su contenido. Si estoy frente a un escritorio realizo algún cambio como mover una hoja o la posición del lapicero.
+</string>
+<string name="hdrogas16e"></string>
+
+<string name="hdrogas17t">Lectura</string>
+<string name="hdrogas17d"> Hoy leí algo de la literatura de narcóticos anónimos.
+Hoy leí al menos una página de la literatura. 
+</string>
+<string name="hdrogas17e">¿Qué literatura es recomendable?</string>
+
+<string name="hdrogas18t">Reparación</string>
+<string name="hdrogas18d">Hoy reparé algún daño causado a las personas que me rodean pidiendo disculpas.
+Llamé a alguien para pedir disculpas por algún acto debido a mi adicción.
+</string>
+<string name="hdrogas18e">¿A quién llamar?</string>
+
+<string name="hdrogas19t">Diferente</string>
+<string name="hdrogas19d">Hoy hice algo diferente a lo rutinario
+Hice algos distinto para distraerme sanamente.
+Miro por la ventana hacia el exterior más cercana durante 30 segundos o cuento de 100 hasta llegar al 1 de 8 en 8, (100, 92, 84). 
+</string>
+<string name="hdrogas19e"></string>       
+
+<string name="hdrogas20t">Compartir</string>
+<string name="hdrogas20d">Hoy compartí mi experiencia, fortaleza y esperanza con alguien. Llamé a alguien para compartir mi experiencia del dia de hoy, para compartir mi sentir y mi esperanza en continuar la recuperación.</string>
+<string name="hdrogas20e">¿A quién llamar?</string>
+
+<string name="hdrogas21t">Compartir</string>
+<string name="hdrogas21d"></string>
+<string name="hdrogas21e"></string>
+
+<string name="hdrogas22t">Confianza</string>
+<string name="hdrogas22d">Hoy al conversar con alguien, la persona mostro confianza conmigo compartiendo algo de su día.</string>
+<string name="hdrogas22e">¿A quién llamar?</string>
+
+<string name="hdrogas23t">Aprender</string>
+<string name="hdrogas23d">Hoy aprendí algo de mí mismo, algo de lo que no me había dado cuente anteriormente. Cierro los ojos e intento recordar que hice hace una hora.</string>
+<string name="hdrogas23e"></string>
+
+<string name="hdrogas24t">Presente</string>
+<string name="hdrogas24d">No me preocupe por ayer o por el mañana, viví en el presente.
+Respiró profundamente mientras doy una vuelta sobre mi propio eje.
+</string>
+<string name="hdrogas24e"></string>
+
+<string name="hdrogas25t">Aceptación</string>
+<string name="hdrogas25d">Hoy logré aceptarme tal como soy.
+Escribo a mano un cumplido para mí mismo.</string>
+<string name="hdrogas25e"></string>
+
+<string name="hdrogas26t">Humanidad</string>
+<string name="hdrogas26d">Hoy me sentí parte de la humanidad
+Saludo a alguien sin importar si lo conozco. Doy un Buenos Días o Buenas Tardes al primero que me encuentre en el camino.
+</string>
+<string name="hdrogas26e"></string>
+
+<string name="hdrogas27t">Obsesión</string>
+<string name="hdrogas27d">No me obsesione por algo.
+Lanzó una moneda y acepto el resultado, no importa si escogí al principio cara o cruz.
+</string>
+<string name="hdrogas27e"></string>
+
+<string name="hdrogas28t">Sin Dañar</string>
+<string name="hdrogas28d">No he hecho nada por perjudicar ni dañar a otro
+Soy comedido con alguien, ayudo a levantar algo del piso, abro una puerta o la sostengo, etc.
+</string>
+<string name="hdrogas28e"></string>
+
+<string name="hdrogas29t">Dar</string>
+<string name="hdrogas29d">He dado algo sin esperar nada a cambio.
+Ofrezco un abrazo a familiares o amigos.
+</string>
+<string name="hdrogas29e"></string>
+
+<string name="hdrogas30t">Sin temor</string>
+<string name="hdrogas30d">No hubo temor en mi vida hoy</string>
+<string name="hdrogas30e"></string>
+
+<string name="hdrogas31t">Sin dolor</string>
+<string name="hdrogas31d">Hoy no sentí dolor, ni físico ni emocional.</string>
+<string name="hdrogas31e"></string>
+
+<string name="hdrogas32t">Tranquilidad</string>
+<string name="hdrogas32d">Me he sentido tranquilo por hoy. Respiro profundamente tres veces.</string>
+<string name="hdrogas32e"></string>
+
+<string name="hdrogas33t">Oportunidad</string>
+<string name="hdrogas33d">Hoy recordé conscientemente que tuve la oportunidad de escoger.</string>
+<string name="hdrogas33e"></string>
+
+<string name="hdrogas34t">Agradecimiento</string>
+<string name="hdrogas34d">Hice una lista de agradecimiento por las cosas que tengo en mi vida hoy</string>
+<string name="hdrogas34e"></string>
+
+<string name="hdrogas35t">Conductas</string>
+<string name="hdrogas35d">Revise al principio del día mis conductas para no caer en ellas.</string>
+<string name="hdrogas35e"></string>
+
 
 
 <!--Trabajo-->

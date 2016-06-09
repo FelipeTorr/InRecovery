@@ -14,14 +14,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/inventariodiario"
+        android:textColor="@color/colorGris1"
         android:gravity="center"
         android:textSize="@dimen/titulo_grande"
         />
-    <android.support.v7.widget.ListViewCompat
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/lista_herramientas">
+        android:layout_height="0dp"
+        android:layout_weight="6">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/layout_herramientas"/>
+    </ScrollView>
 
-
-    </android.support.v7.widget.ListViewCompat>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/puntaje_herramientas"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+<TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/puntos"
+        android:gravity="center"
+        android:textSize="@dimen/texto_grande"/>
+        <TextView
+            android:id="@+id/puntos_herramientas"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="@dimen/texto_grande"/>
+        <ImageView
+            android:id="@+id/avatar_herramientas"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:src="@android:drawable/sym_action_chat"/>
+    </LinearLayout>
 </LinearLayout>
