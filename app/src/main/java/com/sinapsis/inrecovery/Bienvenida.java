@@ -8,7 +8,7 @@ import android.view.Window;
 import android.widget.Button;
 
 public class Bienvenida extends AppCompatActivity {
-
+    boolean soynuevo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         //Coloca el contenido del layout en pantalla al crar la activity
@@ -22,7 +22,9 @@ public class Bienvenida extends AppCompatActivity {
         nuevo.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
-                        Intent i=new Intent(Bienvenida.this,Seleccion.class);
+                        soynuevo=true;
+                        Intent i=new Intent(Bienvenida.this,MenuHerramientas.class);
+                        i.putExtra("Soynuevo",soynuevo);
                         startActivity(i);
                     }
                 }
@@ -31,7 +33,9 @@ public class Bienvenida extends AppCompatActivity {
         veterano.setOnClickListener(
                 new Button.OnClickListener() {
                     public void onClick(View v) {
+                        soynuevo=false;
                         Intent i=new Intent(Bienvenida.this,MenuHerramientas.class);
+                        i.putExtra("Soynuevo",soynuevo);
                         startActivity(i);
                     }
                 }
@@ -39,7 +43,7 @@ public class Bienvenida extends AppCompatActivity {
     }
     public void Mas_click(View v){
         Intent i=new Intent(Bienvenida.this,Herramientas.class);
-        i.putExtra("Adiccion",1);
+        i.putExtra("Adiccion",0);
         startActivity(i);
     }
 

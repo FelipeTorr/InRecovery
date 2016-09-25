@@ -21,6 +21,7 @@
         android:textColor="@color/white"
         android:background="@color/colorPrimary"/>
     <TextView
+        android:id="@+id/titulo_menuadicciones"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
@@ -39,26 +40,63 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
+            >
+            <ImageView
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                android:id="@+id/imagen_adiccion0"
+                android:layout_weight="1"
+                android:src="@drawable/icono_drogas"
+                android:background="@drawable/menusuperior1"
+                android:paddingTop="@dimen/espacio_mediano"
+                android:paddingBottom="@dimen/espacio_pequenio"
+                android:onClick="Herramienta_click"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/background4"
+            android:layout_marginBottom="@dimen/espacio_pequenio"
+            >
+            <Button
+                android:layout_height="match_parent"
+                android:layout_width="0dp"
+                style="@android:style/ButtonBar"
+                android:id="@+id/adiccion0"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="@string/adiccion0"
+                android:textSize="@dimen/boton_mediano"
+                android:textColor="@color/white"
+                android:onClick="Herramienta_click"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
             android:orientation="horizontal"
             >
             <ImageView
-                android:id="@+id/imagen_adiccion0"
+                android:id="@+id/imagen_adiccion1"
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:src="@drawable/icono_drogas"
-                android:background="@drawable/menusuperior1"
+                android:src="@drawable/icono_trabajo"
+                android:background="@color/background2"
                 android:onClick="Herramienta_click"
                 android:layout_marginRight="@dimen/espacio_pequenio"
                 android:layout_marginEnd="@dimen/espacio_pequenio"
                 android:paddingTop="@dimen/espacio_mediano"/>
             <ImageView
-                android:id="@+id/imagen_adiccion4"
+                android:id="@+id/imagen_adiccion2"
                 android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
-                android:src="@drawable/icono_sexoyamor"
-                android:background="@drawable/menusuperior2"
+                android:src="@drawable/icono_deudas"
+                android:background="@color/background4"
                 android:onClick="Herramienta_click"
                 android:paddingTop="@dimen/espacio_mediano"/>
         </LinearLayout>
@@ -71,8 +109,8 @@
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 style="@android:style/ButtonBar"
-                android:id="@+id/adiccion0"
-                android:text="@string/adiccion0"
+                android:id="@+id/adiccion1"
+                android:text="@string/adiccion1"
                 android:layout_weight="1"
                 android:textSize="@dimen/boton_mediano"
                 android:background="@color/background2"
@@ -85,8 +123,8 @@
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
                 style="@android:style/ButtonBar"
-                android:id="@+id/adiccion4"
-                android:text="@string/adiccion4"
+                android:id="@+id/adiccion2"
+                android:text="@string/adiccion2"
                 android:layout_weight="1"
                 android:textSize="@dimen/boton_mediano"
                 android:background="@color/background4"
@@ -101,9 +139,9 @@
             <ImageView
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
-                android:id="@+id/imagen_adiccion1"
+                android:id="@+id/imagen_adiccion3"
                 android:layout_weight="1"
-                android:src="@drawable/icono_trabajo"
+                android:src="@drawable/icono_neurosis"
                 android:background="@color/background4"
                 android:onClick="Herramienta_click"
                 android:layout_marginRight="@dimen/espacio_pequenio"
@@ -112,9 +150,9 @@
             <ImageView
                 android:layout_height="match_parent"
                 android:layout_width="0dp"
-                android:id="@+id/imagen_adiccion2"
+                android:id="@+id/imagen_adiccion4"
                 android:layout_weight="1"
-                android:src="@drawable/icono_deudas"
+                android:src="@drawable/icono_sexoyamor"
                 android:background="@color/background2"
                 android:paddingTop="@dimen/espacio_mediano"/>
         </LinearLayout>
@@ -123,62 +161,48 @@
     android:layout_height="0dp"
     android:layout_weight="1"
     android:layout_marginBottom="@dimen/espacio_pequenio">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menuinferior"
+            android:layout_marginRight="@dimen/espacio_pequenio"
+            android:layout_marginEnd="@dimen/espacio_pequenio"
+          >
     <Button
         android:layout_height="match_parent"
         android:layout_width="0dp"
         style="@android:style/ButtonBar"
-        android:id="@+id/adiccion1"
+        android:id="@+id/adiccion3"
         android:layout_weight="1"
-        android:text="@string/adiccion1"
+        android:text="@string/adiccion3"
         android:textSize="@dimen/boton_mediano"
-        android:background="@color/background4"
+        android:background="@android:color/transparent"
         android:textColor="@color/white"
         android:layout_marginRight="@dimen/espacio_pequenio"
         android:layout_marginEnd="@dimen/espacio_pequenio"
         />
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menuinferior2"
+            >
     <Button
         android:layout_height="match_parent"
         android:layout_width="0dp"
         style="@android:style/ButtonBar"
-        android:id="@+id/adiccion2"
+        android:id="@+id/adiccion4"
         android:layout_weight="1"
-        android:text="@string/adiccion2"
+        android:text="@string/adiccion4"
         android:textSize="@dimen/boton_mediano"
-        android:background="@color/background2"
+        android:background="@android:color/transparent"
         android:textColor="@color/white"
         />
+            </LinearLayout>
 </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="2">
-            <ImageView
-                android:layout_height="match_parent"
-                android:layout_width="0dp"
-                android:id="@+id/imagen_adiccion3"
-                android:layout_weight="1"
-                android:src="@drawable/icono_neurosis"
-                android:background="@color/background4"
-                android:paddingTop="@dimen/espacio_mediano"
-                android:paddingBottom="@dimen/espacio_pequenio"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@drawable/menuinferior">
-            <Button
-                android:layout_height="match_parent"
-                android:layout_width="0dp"
-                style="@android:style/ButtonBar"
-                android:id="@+id/adiccion3"
-                android:layout_weight="1"
-                android:background="@android:color/transparent"
-                android:text="@string/adiccion3"
-                android:textSize="@dimen/boton_mediano"
-                android:textColor="@color/white"
-                />
-        </LinearLayout>
+
 
     </TableLayout>
 

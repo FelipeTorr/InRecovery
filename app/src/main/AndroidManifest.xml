@@ -29,7 +29,8 @@
         <activity android:name=".Herramientas" />
         <activity android:name=".ResumenHerramientas" />
         <activity android:name=".Glosario" />
-        <activity android:name=".DescripcionHerramienta"></activity>
+        <activity android:name=".DescripcionHerramienta" />
+        <activity android:name=".Feedback"></activity>
     </application>
 
 </manifest>

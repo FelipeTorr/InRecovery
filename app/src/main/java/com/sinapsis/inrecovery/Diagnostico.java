@@ -23,6 +23,7 @@ public class Diagnostico extends AppCompatActivity {
     int j;
     ScrollView scroll;
     boolean bandera=false; //bandera para que no se repita la pantalla de admisión rápida.
+	boolean banderafinal=false; //bandera para saber si se respondio la ultima pregunta.
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -307,13 +308,15 @@ public class Diagnostico extends AppCompatActivity {
                 break;
             case R.id.no20:
                 if (checked){
-                    sies[1]=0;
-                    noes[1]=1;}
+                    sies[19]=0;
+                    noes[19]=1;
+                    banderafinal=true;}
                 break;
             case R.id.si21:
                 if (checked){
                     sies[20]=1;
-                    noes[20]=0;}
+                    noes[20]=0;
+                    banderafinal=true;}
                 break;
             case R.id.no21:
                 if (checked){
@@ -393,22 +396,27 @@ public class Diagnostico extends AppCompatActivity {
             case R.id.si29:
                 if (checked){
                     sies[28]=1;
-                    noes[28]=0;}
+                    noes[28]=0;
+                    banderafinal=true;}
                 break;
             case R.id.no29:
                 if (checked){
                     sies[28]=0;
-                    noes[28]=1;}
+                    noes[28]=1;
+                    banderafinal=true;}
                 break;
             case R.id.si30:
                 if (checked){
                     sies[29]=1;
-                    noes[29]=0;}
+                    noes[29]=0;
+					banderafinal=true;
+					}
                 break;
             case R.id.no30:
                 if (checked){
                     sies[29]=0;
-                    noes[29]=1;}
+                    noes[29]=1;
+					banderafinal=true;}
                 break;
         }
         si=0;
@@ -429,10 +437,10 @@ public class Diagnostico extends AppCompatActivity {
                 //codigo aqui//
                 bandera=true;
             }
-
+		if (banderafinal==true){
         switch(adiccion){
             case 0:
-                if (total==29) {
+                if (total>=29) {
                     if (si > 9) {
                         //Resultado positivo
                         Intent i = new Intent(Diagnostico.this, ResultadoPositivo.class);
@@ -445,9 +453,12 @@ public class Diagnostico extends AppCompatActivity {
                         startActivity(i);
                     }
                 }
+				else{
+				//Toast de que falta contestar 29-total preguntas.
+				}
                 break;
             case 1:
-                if (total==20) {
+                if (total>=20) {
                     if (si > 3) {
                         //Resultado positivo
                         Intent i = new Intent(Diagnostico.this, ResultadoPositivo.class);
@@ -460,9 +471,12 @@ public class Diagnostico extends AppCompatActivity {
                         startActivity(i);
                     }
                 }
+				else{
+				//Toast de que falta contestar 29-total preguntas.
+				}
                 break;
             case 2:
-                if (total==15) {
+                if (total>=15) {
                     if (si > 7) {
                         //Resultado positivo
                         Intent i = new Intent(Diagnostico.this, ResultadoPositivo.class);
@@ -475,9 +489,12 @@ public class Diagnostico extends AppCompatActivity {
                         startActivity(i);
                     }
                 }
+				else{
+				//Toast de que falta contestar 29-total preguntas.
+				}
                 break;
             case 3:
-                if (total==24) {
+                if (total>=24) {
                     if (si > 3) {
                         //Resultado positivo
                         Intent i = new Intent(Diagnostico.this, ResultadoPositivo.class);
@@ -490,9 +507,12 @@ public class Diagnostico extends AppCompatActivity {
                         startActivity(i);
                     }
                 }
+				else{
+				//Toast de que falta contestar 29-total preguntas.
+				}
                 break;
             case 4:
-                if (total==30) {
+                if (total>=30) {
                     if (si > 9) {
                         //Resultado positivo
                         Intent i = new Intent(Diagnostico.this, ResultadoPositivo.class);
@@ -505,8 +525,12 @@ public class Diagnostico extends AppCompatActivity {
                         startActivity(i);
                     }
                 }
+				else{
+				//Toast de que falta contestar 29-total preguntas.
+				}
                 break;
         }
 
     }
+	}
 }

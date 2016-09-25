@@ -1,28 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/layout_itemHerramienta"
-    android:layout_width="fill_parent"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:layout_marginBottom="@dimen/espacio_pequenio"
+    android:background="@color/background2"
     >
-    <ImageView
-        android:id="@+id/imagen_herramienta"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:adjustViewBounds="true"
-        android:scaleType="fitXY"
-        android:contentDescription="Descripción del contenido de la imagen"
-        android:src="@android:drawable/ic_menu_gallery" />
-        <TextView
-            android:id="@+id/titulo_herramienta"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imagen_herramienta"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:contentDescription="Descripción del contenido de la imagen"
+            android:src="@android:drawable/ic_menu_gallery" />
+        <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="match_parent"
-            android:text="Título"
-            android:gravity="center_vertical"
-            android:textColor="@color/white"
-            android:textAllCaps="true"
-            android:layout_gravity="center"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            />
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/titulo_herramienta"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/hdrogas1t"
+                android:gravity="center_vertical"
+                android:textColor="@color/colornarc_anon5"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                />
+            <TextView
+                android:id="@+id/descripcion_herramienta"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="@string/hdrogas1d"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textAllCaps="true"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/si"
+            android:gravity="center"
+            android:background="@drawable/si_drogas"
+            android:id="@+id/si1"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/no"
+            android:gravity="center"
+            android:background="@drawable/no_drogas"
+            android:id="@+id/no1"/>
+        </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="@dimen/texto_normal"
+        android:text="@string/hdrogas1e"
+        android:background="@color/background3"
+        android:textColor="@color/colorGris1"
+        />
+
 </LinearLayout>

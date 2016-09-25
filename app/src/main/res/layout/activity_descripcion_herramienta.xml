@@ -9,7 +9,17 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.sinapsis.inrecovery.DescripcionHerramienta"
     android:orientation="vertical">
-    <TextView
+    
+	<ImageView
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:scaleType="fitXY"
+        android:id="@+id/imagen_adiccion"
+        android:src="@android:drawable/sym_def_app_icon"
+        />
+	<TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
@@ -19,34 +29,7 @@
         android:textSize="@dimen/titulo_grande"
         android:background="@color/colornarc_anon10"
         />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Enlace"
-        android:id="@+id/enlace"
-        android:gravity="center"
-        android:textSize="@dimen/titulo_grande"
-        android:background="@color/colornarc_anon5"
-        />
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="2"
-        android:text="Descripcion"
-        android:id="@+id/descripcion"
-        android:gravity="center"
-        android:textSize="@dimen/titulo_grande"
-        android:background="@color/colornarc_anon7"
-        />
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="Lo hice"
-        android:onClick="Button_Click"
-        android:textSize="@dimen/boton_mediano"
-        android:background="@color/colorBotones3"/>
-    <ImageView
+	<ImageView
         android:layout_gravity="center"
         android:layout_width="200dp"
         android:layout_height="0dp"
@@ -55,5 +38,44 @@
         android:id="@+id/imagen_herramienta"
         android:src="@android:drawable/sym_def_app_icon"
         />
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="2"
+		android:text="Descripcion"
+		android:id="@+id/descripcion"
+		android:gravity="center"
+		android:textSize="@dimen/titulo_grande"
+		android:background="@color/background3"
+		/>
+	<TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enlace"
+        android:id="@+id/enlace"
+        android:gravity="center"
+        android:textSize="@dimen/titulo_grande"
+        android:background="@color/background3"
+        />
+
+    <Button
+		android:id="@+id/lo_hice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/lohice"
+        android:onClick="Button_Click"
+        android:textSize="@dimen/boton_mediano"
+        android:background="@color/colorBotones3"/>
+	<Button
+		android:id="@+id/regresar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/regresar"
+        android:onClick="Button_Click"
+        android:textSize="@dimen/boton_mediano"
+        android:background="@color/colorBotones7"/>
+    
 
 </LinearLayout>
