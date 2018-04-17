@@ -1,5 +1,5 @@
 ## InRecovery
-####Aplicación móvil para la recuperación de adicciones.
+### Aplicación móvil para la recuperación de adicciones.
 
 **Author:** Felipe Torres
 
